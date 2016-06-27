@@ -34,7 +34,7 @@ android {
     buildToolsVersion '24.0.0'
 
     defaultConfig {
-        applicationId 'com.nilhcem.droidcongr'
+        applicationId 'com.nilhcem.droidconat'
         versionCode 1
         versionName '1.0'
 
@@ -43,7 +43,7 @@ android {
         resConfigs 'en', 'fr'
 
         buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
-        buildConfigField 'String', 'API_ENDPOINT', "\"https://raw.githubusercontent.com/Nilhcem/droidcongr-2016/master/assets/api/\""
+        buildConfigField 'String', 'API_ENDPOINT', "\"https://raw.githubusercontent.com/Nilhcem/droidconat-2016/master/assets/api/\""
     }
 
     buildTypes {
