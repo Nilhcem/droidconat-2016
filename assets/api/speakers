@@ -1,174 +1,106 @@
 [{
-	"bio": "Andreas is a mobile software engineer at Pollfish building its SDKs for different platforms.",
+	"bio": "Laurence Moroney has authored more programming books than he can remember.\nA well known speaker at conferences such as Google I/O, Microsoft Build, and others, he is passionate about mobile development, and Android in particular. When not messing around with development, he is a published Sci-Fi novelist and produced screenwriter.\nFollow Laurence on lmoroney",
 	"id": 1,
-	"name": "Andreas Vourkos",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Andreas_vourkos.jpg",
-	"title": "Mobile Engineer | Pollfish",
-	"twitter": "vourkosa",
-	"website": "https://www.pollfish.com/"
+	"name": "Laurence Moroney",
+	"photo": "https://droidcon.at/img/people/LaurenceMoroney.jpg",
+	"title": "Developer Advocate at Google, Google",
+	"twitter": "lmoroney",
+	"website": "https://plus.google.com/+LaurenceMoroney/"
 }, {
-	"bio": "Mobile developer with a passion for Android, author of several tech books, team leader and builder at Disney.",
+	"bio": "Andrea Falcone is a Senior Software Engineer at Twitter. She has worked on many parts of Fabric, building the Android tooling, including Android Studio Plugin, Crashlytics Android SDK, Gradle plugin and Beta by Crashlytics. She is currently working on fastlane, an open source release process automation suite. Past talks: github.com/asfalcone/talks",
+	"github": "asfalcone",
 	"id": 2,
-	"name": "Charlie Collins",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/06/charlie.jpeg",
-	"title": "Android Engineer | Disney",
-	"twitter": "charliecollins",
-	"website": "http://disney.com"
+	"name": "Andrea Falcone",
+	"photo": "https://droidcon.at/img/people/AndreaFalcone.jpg",
+	"title": "Software Engineer, Twitter",
+	"twitter": "asfalcone"
 }, {
-	"bio": "Chris is an Android Engineer working on the radio product for Spotify. He is based out of the NYC office, but is originally from Australia.",
+	"bio": "Gautier is an aspiring Software Craftsman at happn in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
+	"github": "Nilhcem",
 	"id": 3,
-	"name": "Chris Doyle",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/06/Chris-Doyle.jpg",
-	"title": "Android Engineer | SPOTIFY",
-	"twitter": "chris_doyley",
-	"website": "https://www.spotify.com/"
-}, {
-	"bio": "Developer Relations, Technical Writing and Editing, (Board) Game Design, Education, Explanation and always more to come.",
-	"id": 4,
-	"name": "Chris Ward",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/06/Chris_Ward.jpg",
-	"title": "Techcnical Writer | Gregarious Mammall",
-	"twitter": "chrischinch",
-	"website": "http://www.gregariousmammal.com/"
-}, {
-	"bio": "Android developer at Nexmo and open source software enthusiast, working on: 2FA, communication services, and cross-platform SDKs.",
-	"id": 5,
-	"name": "Emma Tresanszki",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/emma_tresanszki.jpg",
-	"title": "Android Developer | Nexmo",
-	"twitter": "EmmaTresanszki",
-	"website": "https://www.nexmo.com/"
-}, {
-	"bio": "Enrique is a Google Developer Expert, and Freelance Mobile Engineer normally based in Munich, Germany",
-	"id": 6,
-	"name": "Enrique Lopez Manas",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Enrique_lopez_Manas.jpg",
-	"title": "Google Developer Expert",
-	"twitter": "eenriquelopez",
-	"website": "https://plus.google.com/+EnriqueL%C3%B3pezMa%C3%B1as/posts"
-}, {
-	"bio": "Senior Android developer working for Badoo in London. I’ve developed apps for seven years now but I still learn something new every day!",
-	"id": 7,
-	"name": "Erik Andre",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/erik_profile.jpg",
-	"title": "Senior Android Developer | Badoo",
-	"twitter": "ErikAndreDev",
-	"website": "https://badoo.com/"
-}, {
-	"bio": "Agile thinker passionate in Kotlin, Android Development, Clean Code and Free Software",
-	"id": 8,
 	"name": "Gautier Mechling",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/gautier-mechling.jpg",
-	"title": "Software Craftsman",
+	"photo": "https://droidcon.at/img/people/GautierMechling.jpg",
+	"title": "Software Craftsman, happn, Paris",
 	"twitter": "Nilhcem",
 	"website": "https://plus.google.com/+GautierMechling"
 }, {
-	"bio": "Passionate about all new technologies , mobiles technologies and Open sources , Technophile Half human half droid and JEDI of Google OS.",
-	"id": 9,
-	"name": "Ikram Kella",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/IkramK.jpg",
-	"title": "Program Lead Chlef | Google Women TechMakers",
-	"website": "https://plus.google.com/u/0/+GDGChlef/posts"
-}, {
-	"bio": "Android developer and football lover. Trying to shake up amateur football with Football Tracker, Everyone’s Assistant Manager.",
-	"id": 10,
-	"name": "Jesus Gumiel",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/jesusegumiel.jpg",
-	"title": "Founder | Footballtracker",
-	"twitter": "jegumi",
-	"website": "http://www.football-tracker.com/en/"
-}, {
-	"bio": "Jorge Castillo is a Spanish Android developer working as an Android Engineer at Jobandtalent.",
-	"id": 11,
-	"name": "Jorge Castillo",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Jorge_Castillo.jpg",
-	"title": "Android Engineer | Jobandtalent",
-	"twitter": "JorgeCastilloPr",
-	"website": "https://www.jobandtalent.com/"
-}, {
-	"bio": "Software Engineer & Maker passionate about Open Software/Data/Hardware/Anything",
-	"github": "djodjoni",
-	"id": 12,
-	"name": "Kalin Maldzhanski",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Kalin.jpg",
-	"title": "Software Engineer | Apptik",
-	"twitter": "djodjoni",
-	"website": "http://apptik.io/"
-}, {
-	"bio": "Android Developer from Germany as well as GDG Bodensee lead",
-	"id": 13,
-	"name": "Martin Liersch",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Martin_Liersh.jpg",
-	"title": "Chief Application Architect | Carnectiv Labs Ltd",
-	"twitter": "Goddchen",
-	"website": "http://www.carnectiv.com/"
-}, {
-	"bio": "Faculty of Organizational Sciences, University of Belgrade\nfew companies including gooten.com\ncurrently at drobio.com at abc-accelerator.com",
-	"id": 14,
-	"name": "Milos Kresovic",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/kresovicmilos.jpg",
-	"title": "Senior Android Developer | Drobio"
-}, {
-	"bio": "Cofounder & CTO of Pixplicity. Dutch-American Android master chef. Chairman of DutchAUG. Loves technology. Hates computers. Eats sushi.",
-	"id": 15,
-	"name": "Paul Lammertsma",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Paul_300px.jpg",
-	"title": "Cofounder & CTO | Pixplicity",
-	"twitter": "officesunshine",
-	"website": "http://pixplicity.com/"
-}, {
-	"bio": "Pedro is a Software Engineer focused on open source, clean code and testing. His role at Karumi is Senior Mobile Engineer.",
-	"id": 16,
-	"name": "Pedro Gomez",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Pedro.jpg",
-	"title": "Senior Mobile Engineer | Karumi",
-	"twitter": "pedro_g_s",
-	"website": "http://www.karumi.com/"
-}, {
-	"bio": "Caner is a UX expert who is also a technology geek. Mainly focused on the design, UX and marketing of mobile applications.",
-	"id": 17,
-	"name": "R. Caner Yildirim",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/06/resul-caner-yildirim.jpg",
-	"title": "Google Developers UX / UI Expert | InnovationBox",
-	"twitter": "protechman",
-	"website": "http://innovationbox.com/"
-}, {
-	"bio": "Daniel Hartwich is an aspiring Android Developer at the German company XING AG located in Hamburg. He’s interested in architecture and tests",
-	"id": 18,
+	"bio": "Daniel Hartwich is an aspiring Android Developer at the German company XING AG located in Hamburg. He has been programming for the Android platform since 2013. Whenever Google releases anything new regarding Android, Daniel instantly gets interested and investigates everything - up to the smallest detail.",
+	"github": "dhartwich1991",
+	"id": 4,
 	"name": "Daniel Hartwich",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/DH_CONFERENCE_TRANSPARENT_300x300.jpg",
-	"title": "Android Developer | XING AG",
-	"twitter": "KiLLyA_",
-	"website": "https://www.xing.com/"
+	"photo": "https://droidcon.at/img/people/DanielHartwich.jpg",
+	"title": "XING",
+	"twitter": "KiLLyA_"
 }, {
-	"bio": "Sergio is a Software Engineer at Karumi specialized on mobile development. He has been pushing for open source projects lately.",
-	"id": 19,
-	"name": "Sergio Gutierrez",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/sergio_gutierrez.jpg",
-	"title": "Senior Software Engineer | Karumi",
-	"twitter": "Serchinastico",
-	"website": "http://karumi.com/"
+	"bio": "I take care of the android side of native shopping apps at Marks & Spencer in London. My favourite topics are testing and automation, and I spend a lot of time playing about in that. In my spare time I talk at conferences or fiddle with some obscure technologies.",
+	"github": "zmarkan",
+	"id": 5,
+	"name": "Žan Markan",
+	"photo": "https://droidcon.at/img/people/ZanMarkan.jpg",
+	"title": "Marks & Spencer",
+	"twitter": "zmarkan",
+	"website": "https://plus.google.com/+%C5%BDanMarkan"
 }, {
-	"bio": "Android engineer and obsessed with clean architecture & RxJava.",
-	"id": 20,
-	"name": "Spiros Oikonomakis",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Spiros_Oikonomakis.jpg",
-	"title": "Android Engineer | EZHOME",
-	"twitter": "spirosoik",
-	"website": "https://plus.google.com/u/0/+SpirosOikonomakis/posts"
+	"bio": "I started writing web apps and websites in 2004 as a hobby. Those were simple apps written with XHTML, CSS and PHP/MySQL combo. 6 years later I decided to make a living out of my hobby so I got my first pro job in company Superius Ltd. where I've worked as a developer. A variety of everyday tasks with different technologies such as SQL Server 2005, 2008, 2008R2, PostgreSQL, PHP, Java, Android SDK expanded my knowledge and my views beyond simple and easy to implement things to large ERP and BI Systems, Mobile application development. In March 2012, I moved to another company and another city (Zagreb) in which I got a better grasp of technologies such as Java. Besides my regular work I enjoy expanding my knowledge with good books. After 2 years at Interactive1, I moved to an awesome company in Zagreb - Infinum. I improved in mobile development - Android to be exact and after 2 years here I became team lead.",
+	"id": 6,
+	"name": "Kristijan Jurković",
+	"photo": "https://droidcon.at/img/people/KristijanJurkovic.jpg",
+	"title": "Android Team Lead, Infinum",
+	"twitter": "kjurkovic",
+	"website": "http://www.linkedin.com/in/kristijanjurkovic"
 }, {
-	"bio": "I’m a physics teacher and Indie developer from Greece, making android apps since 2011",
-	"id": 21,
-	"name": "Thanassis Tsakiridis",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/Thanassis_Tsakiridis.jpg",
-	"title": "Indie Developer | B4X Community",
-	"website": "https://www.b4x.com/"
+	"bio": "Born in Vienna, I was writing code for as long as I can think back – including for the ZX Spectrum. Just music, but hey :-) I did my bachelor degree in information and communication systems, and am working on my master degree paper in the same area. I'm a senior Java/Android developer but also spent nearly as much time in web development with PHP, SQL and JavaScript. I started Android development in 2011, and joined PSPDFKit in 2015, where I helped a lot with improving the public framework API, and invested a lot of time in creating a stable, easy-to-use and comprehensive test suite.",
+	"id": 7,
+	"name": "David Schreiber-Ranner",
+	"photo": "https://droidcon.at/img/people/DavidSchreiber-Ranner.jpg",
+	"title": "PSPDFKit",
+	"twitter": "Flashmasterdash",
+	"website": "https://plus.google.com/112371263315253005287"
 }, {
-	"bio": "Android developer. Architect of apps, libraries and SDKs at Avast. Pusher of good coding and testing practices.",
-	"id": 22,
-	"name": "Tomas Kypta",
-	"photo": "http://2016.droidcon.gr/wp-content/uploads/2016/05/TomKypta_300px.jpg",
-	"title": "Android developer | Avast",
-	"twitter": "TomasKypta",
-	"website": "https://www.avast.com/"
+	"bio": "Željko has been a part of the Infinum Android team for 3 years. He has mastered all those nasty bugs and errors which can occur while developing even the most complicated projects. His passions include ORM libraries and frameworks, Android Studio and contributing to open source. His love for Android Studio can only be matched by his hatred for Eclipse",
+	"id": 8,
+	"name": "Željko Plesac",
+	"photo": "https://droidcon.at/img/people/ZeljkoPlesac.jpg",
+	"title": "Infinum",
+	"twitter": "ZeljkoPlesac",
+	"website": "https://hr.linkedin.com/in/željko-plesac-01551214"
+}, {
+	"bio": "Hasan Hoşgel is a dedicated Android developer and a Google Developer Export for Android with over fiveteen years of professional programming experience. Since 2010 doing all day long Android application development. Continuous improvement of the architecture, performance and also quality are his dedication. He works since 2006 for ImmobilienScout24, Germany’s real estate marketplace leader. With a short intermezzo at Kitchen Stories, which offered a premium cooking application. As a co-organizer of the “GDG Berlin Android” and as a speaker he attended many mobile conferences and several Google Developer Groups across Europe. As well being in program committees and organization of mobile conferences.",
+	"github": "alosdev",
+	"id": 9,
+	"name": "Hasan Hoşgel",
+	"photo": "https://droidcon.at/img/people/HasanHosgel.jpg",
+	"title": ",",
+	"twitter": "alosdev",
+	"website": "https://plus.google.com/+HasanHosgel"
+}, {
+	"bio": "During college I got involved in e-learning projects where I developed in Java, and ended up in love with it. After graduation I got a job at Infinum as an Android developer, and have been working there ever since. By the end of 2014. I switched from various project in the telecommunication, medical and travel industry to mobile banking, where I became the Technical Manager of Mobile Banking in early 2016. My responsibilities include researching new technology and advancements in security, making sure new practices are implemented and generally pushing things forward in the right direction. I love making quality, reliable products. Apart from the effort you put in the architecture of the project, I believe that the details will define the difference between good and really amazing. We prefer amazing.",
+	"id": 10,
+	"name": "Ana Baotić",
+	"photo": "https://droidcon.at/img/people/AnaBaotic.jpg",
+	"title": "Technical Manager, Infinum",
+	"twitter": "abaotic",
+	"website": "https://www.linkedin.com/in/abaotic"
+}, {
+	"bio": "Svetlana is a Developer Advocate at JetBrains. She's been working on the Kotlin language (kotlinlang.org) since 2011. She is one of the authors of the 'Kotlin in Action' book.",
+	"github": "svtk",
+	"id": 11,
+	"name": "Svetlana Isakova",
+	"photo": "https://droidcon.at/img/people/SvetlanaIsakova.jpg",
+	"title": "Developer Advocate, Jetbrains",
+	"twitter": "sveta_isakova",
+	"website": "https://www.linkedin.com/in/svetlana-isakova-3b7b25a3"
+}, {
+	"bio": "Christian and Sina are passionate Android developers since the early days of the platform. At c4c Engineering they have spent a lot of time developing apps in the automotive area and have become experts with multiple concepts of integrating smartphones into vehicles and their implementations (e.g. Android Auto, MirrorLink, CarPlay).",
+	"id": 12,
+	"name": "Sina Grunau",
+	"photo": "https://droidcon.at/img/people/SinaGrunau.jpg",
+	"title": "Android Developer, c4 Engineering"
+}, {
+	"bio": "Christian and Sina are passionate Android developers since the early days of the platform. At c4c Engineering they have spent a lot of time developing apps in the automotive area and have become experts with multiple concepts of integrating smartphones into vehicles and their implementations (e.g. Android Auto, MirrorLink, CarPlay).",
+	"id": 13,
+	"name": "Christian Dziuba",
+	"photo": "https://droidcon.at/img/people/ChristianDziuba.jpg",
+	"title": "Android Developer, c4 Engineering",
+	"website": "https://www.xing.com/profile/Christian_Dziuba"
 }]
