@@ -1,0 +1,185 @@
+[{
+	"description": "The Android app ecosystem is evolving every day and developers are seeking better tools and libraries to help them create apps that will stand out in the overcrowded marketplace. Third-party SDKs appear every day promising to aid this process, instead they bring friction and integration challenges – is it worth the effort? More often the answer is no, as many of them need a significant amount of effort to become embedded in an app. Building SDKs for seamless integration is a challenge, especially when you have to deal on the view level. So how do we attack the two-minute integration challenge?\nIn this session we will discuss a set of good practices on how to build a well-structured SDK focusing on the view level. We will take a deep-dive into the different options available for rendering overlays on Android – particularly through an SDK – highlighting capabilities and limitations of each approach. Over the course of the session we will explore the various technical decisions an SDK developer has to make to overcome platform limitations, focusing on how to provide a minimalistic interaction with the SDK users, while still keeping the full functionality of the SDK under the hood.",
+	"duration": 35,
+	"id": 1,
+	"roomId": 1,
+	"speakersId": [1],
+	"startAt": "2016-07-07 10:00",
+	"title": "BUILDING OVERLAY SDKs ON ANDROID – “The two-minute integration challenge”"
+}, {
+	"description": "outline/braindump\nCommon code where it matters, Android and iOS, via j2objc.\n• You write mobile apps. You write mobile apps for both iOS and Android, because, you live in the real world and those platforms matter.\n• You want to be able to write common abstractions outside the UI, like your data model and API client, once and have it work for both platforms in a consistent and robust manner (with tests).\n• You recognize that native UI code matters and there are platform differences with Android and iOS that you don’t want to neutralize.\n• You need to know about j2objc.\nAt Disney we write mobile apps, and we care deeply about the UI/UX. We recognize that our UI and UX experts need to specialize per platform and yet we still want to reduce costs and improve consistency and time to market by sharing common abstractions outside the UI.\nThis is where j2objc comes in.",
+	"duration": 45,
+	"id": 2,
+	"roomId": 1,
+	"speakersId": [2],
+	"startAt": "2016-07-07 10:00",
+	"title": "COMMON GROUND: J2ObjC CODE RE-USE"
+}, {
+	"description": "If you’ve ever glanced at Spotify’s release notes, you’ll find them quite underwhelming.  No announcements of super awesome features, some random ramblings that may or may not be true.  Of course, we are always rolling out new features and our UI changes from day to day.  And, it’s all personalised – the UI presents what’s relevant to you and some of you might even be lucky enough to receive new features before we roll it out to everyone.\nWe use two major backend components to control this.  First, we have an ab testing framework that we can use to rollout features to random subsets of users, grouped by region, platform and client version.  Second, we have a sophisticated UI content framework that accepts JSON data to render certain pages throughout the app with the latest and most relevant data for that user.  Multiple backends can provide the content and the clients interpret the data and render it in a consistent way natively.",
+	"duration": 45,
+	"id": 3,
+	"roomId": 1,
+	"speakersId": [3],
+	"startAt": "2016-07-07 10:00",
+	"title": "Breaking Spotify’s release cycle by using the backend to drive the UI and feature releases."
+}, {
+	"description": "The battle between Google and Oracle may finally be over, but let’s face it, the relationship between Android developers and Java is still a rocky one.\nIn this presentation I would like to look at the potential for Android development with a series of alternatives to Java, especially Go, Dart, Kotlin and Swift.\nI will introduce the languages, analyze their potential and what is achievable with them, seeing if any of them are viable alternatives to the Java behemoth.",
+	"duration": 45,
+	"id": 4,
+	"roomId": 1,
+	"speakersId": [4],
+	"startAt": "2016-07-07 10:00",
+	"title": "ANDROID PROGRAMMING WITHOUT Java"
+}, {
+	"description": "– What does it take to publish and maintain your library on central repository? And why not to use dynamic dependency versions.\n– How should you design your library in such way that you don’t break backwards compatibility but also have control over which versions to stop maintaining.\n– Examples on when to do pre-validation and when to pass through errors in a transparent way. Scenarios where doing it all on the client side might discard future capabilities.\n– Some interesting vulnerabilities a security audit would look for in your library.",
+	"duration": 45,
+	"id": 5,
+	"roomId": 1,
+	"speakersId": [5],
+	"startAt": "2016-07-07 10:00",
+	"title": "BEST PRACTICES IN BUILDING MOBILE SDKs"
+}, {
+	"description": "Android High Performance will start you thinking about how to wring the most from any hardware your app is installed on, so you can increase your reach and engagement. This talk will provide an introduction to state-of-the-art Android techniques and the importance of performance in an Android application. Then, it will be explained the Android SDK tools regularly used to debug and profile Android applications. We will also learn about some advanced topics such as building layouts, multithreading, networking, and security. Battery life is one of the biggest bottleneck in applications; so we will show typical examples of code that exhausts battery life, how to prevent this, and how to measure battery consumption from an application in every kind of situation.",
+	"duration": 40,
+	"id": 6,
+	"roomId": 1,
+	"speakersId": [6],
+	"startAt": "2016-07-07 10:00",
+	"title": "ANDROID HIGH PERFORMANCE"
+}, {
+	"description": "At Badoo, where our mission is to connect people, chat is a really big deal. So when the time came to create a brand new messaging experience, we of course wanted to use the best tools and ideas available.\nIn the past we’ve experimented with both Clean Architecture and RxJava but this is the story of how we combined that with our existing Model-View-Presenter based approach to create and awesome (Open Source of course: https://goo.gl/i39Ufd) framework that provides full client side chat integration.\nAlong the way we learned some valuable lessons and found answers to some tricky questions:\nWhere to draw the line when using RxJava?\nHow to implement efficient multi-level caching with error recovery using RxJava?\nWhat is Clean Architecture really, and when does it stop being clean?\nand much more!\nNow we want to share our experience with our fellow developers, to hopefully inspire you to create something awesome :)",
+	"duration": 35,
+	"id": 7,
+	"roomId": 1,
+	"speakersId": [7],
+	"startAt": "2016-07-07 10:00",
+	"title": "BUILDING A FRAMEWORK WITH CLEAN ARCHITECTURE, RxJava AND MVP"
+}, {
+	"description": "During this presentation I will introduce some of the tools we use daily at happn, a multi-million users French dating application.\nI will talk about many tools that help us to:\n• Simulate a laggy/instable HTTP(s) connection\n• Interact with our application to analyze logs, views, and modify any data (inc. memory / shared preferences / database) in real time\n• Change our application’s backend server without recompiling\n• Better understand our technical debt\n• Create a REST mock server in a few seconds to anticipate the development of a feature when the backend is not developed yet\n• Measure the performance (cpu/memory) of our application\n• Decompile our application to better understand and analyze its security\n• Alter a server response and check whether the application behaves properly\n• and many more tips…",
+	"duration": 45,
+	"id": 8,
+	"roomId": 1,
+	"speakersId": [8],
+	"startAt": "2016-07-07 10:00",
+	"title": "THE 2016 ANDROID DEVELOPER TOOLBOX"
+}, {
+	"description": "We humans have indeed always been adept at dovetailing our minds and skills to the shape of our current tools and aids. But when those tools and aids start dovetailing back , when our technologies actively, automatically, and continually tailor themselves to us, just as we do to them ,then the line between tool and user becomes flimsy indeed.",
+	"duration": 30,
+	"id": 9,
+	"roomId": 1,
+	"speakersId": [9],
+	"startAt": "2016-07-07 10:00",
+	"title": "THE INTERNET OF THINGS – Going beyond mind’s limits through technologies."
+}, {
+	"description": "One of the most common errors when starting to develop wearable apps is to try to replicate the functionality of your handset on a wearable. It’s important to keep in mind that wearable apps should be quite small in size and functionality. They are a complement for your phone and we must develop our apps keeping this premise. In this talk I’ll explain the process followed to develop a wearable remote control, covering some basic aspects of the communication between the phone and the wearable.",
+	"duration": 30,
+	"id": 10,
+	"roomId": 1,
+	"speakersId": [10],
+	"startAt": "2016-07-07 10:00",
+	"title": "BUILD YOUR OWN WEARABLE REMOTE CONTROL"
+}, {
+	"description": "Google has recently released a preview version of Android N, and brand new Java 8 features appeared around. They gave us a sneak peak about the future of Android development. In this talk we are going to showcase all the supported new language features up to date, detailing which ones are retrocompatible and which ones will just be available starting on API 24 (N). We will get our hands on a Clean Architecture sample project which will use java 8 functionalities on its different layers, in order to make people think a little bit more about how those new language features can become handy for us to simplify our code and project architecture.",
+	"duration": 45,
+	"id": 11,
+	"roomId": 1,
+	"speakersId": [11],
+	"startAt": "2016-07-07 10:00",
+	"title": "DEVELOPING ANDROID APPS WITH Java8"
+}, {
+	"description": "Unit Tests and UI Automation tests are discussed a lot nowadays however many developers and many more product owners are not convinced they are worth the effort.\nThis talk aims to:\n– give a short overview of the available tools and the types of tests they can be used for in the Android world.\n– show that TDD and UIs tests are not scary at all, but quite fun to do\n– define the roles and the importance of all parties in development and testing – Devs, QAs, POs\n– Real example how it is possible to move to the next level of fully linked and automated specs-test-dev-release(BDD) cycle ensuring quality and transparency at any time.",
+	"duration": 45,
+	"id": 12,
+	"roomId": 1,
+	"speakersId": [12],
+	"startAt": "2016-07-07 10:00",
+	"title": "TEST IT ALL, TEST IT MORE"
+}, {
+	"description": "In almost every Android app project, you use a variety of libraries. This talk covers some of the most used libraries.\nWhile developing an Android app, you rely on loads of 3rd party libraries to make your life easier. Need persistence? No problem. Need to access a REST API? No problem. Need to handle images in your app? No problem. There’s a library for almost any common task that Android developers will face. In this talk, I will show examples of some of the most common Android libraries that are out there.",
+	"duration": 45,
+	"id": 13,
+	"roomId": 1,
+	"speakersId": [13],
+	"startAt": "2016-07-07 10:00",
+	"title": "ANDROID LIBRARY A-Z"
+}, {
+	"description": "This presentation will cover:\n• general concept of MVVM and Android Databinding\n• why they should be used together\n• how using these technologies reflects to the app architecture\n• code snippets from practice\n• disadvantages, cases when it shouldn’t be used and alternatives",
+	"duration": 40,
+	"id": 14,
+	"roomId": 1,
+	"speakersId": [14],
+	"startAt": "2016-07-07 10:00",
+	"title": "MVVM and ANDROID DATABINDING IN PRACTICE"
+}, {
+	"description": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn’t there some strategy to store account credentials in a centralized place?\nWhat about multiple accounts, like Twitter? What about security concerns? And when should or could I synchronize data?\nAndroid offers a powerful—and underrated—account manager. Let’s explore the possibilities together and lay out an architecture for engineering and Android app based on accounts.",
+	"duration": 35,
+	"id": 15,
+	"roomId": 1,
+	"speakersId": [15],
+	"startAt": "2016-07-07 10:00",
+	"title": "I’VE BEEN DOING SOME SYNCING…"
+}, {
+	"description": "Test our Android applications is not an easy task. When we start writing tests most of the time we don’t know what to test and how, our code is not as testable as it should, we write tests but sometimes they are flaky or test nothing. In this talk we are going to talk about what to test an how to design a testing development pipeline. Using real production code we will show how to test our application using different approaches based on different testing strategies and frameworks or libraries like: Espresso, MockWebServer, Dagger2, JUnit, Mockito, etc.\nIf you want to learn how to design a testing development pipeline, how to test your application layers using different strategies and write tests you can trust, this is your talk.\n—–\nThe presentation is not based on a project but there are some code examples extracted from these repositories:\nhttps://github.com/pedrovgs/AndroidGameBoyEmulator/\nhttps://github.com/Karumi/KataTODOApiClientJava\nhttps://github.com/Karumi/KataSuperHeroesAndroid",
+	"duration": 60,
+	"id": 16,
+	"roomId": 1,
+	"speakersId": [16],
+	"startAt": "2016-07-07 10:00",
+	"title": "WORLD-CLASS TESTING DEVELOPMENT PIPELINE FOR ANDROID"
+}, {
+	"description": "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design a user experience for this type of devices.",
+	"duration": 30,
+	"id": 17,
+	"roomId": 1,
+	"speakersId": [17],
+	"startAt": "2016-07-07 10:00",
+	"title": "Presentation: MATERIAL DESIGN FOR ANDROID WEAR"
+}, {
+	"description": "Every platform has it’s own design principles and approaches. But, in the core, they all need to follow same core rules. So, how we combine this core requirements with Google’s Material Design and use them on an Android Wear device? Let’s learn!",
+	"duration": 120,
+	"id": 18,
+	"roomId": 1,
+	"speakersId": [17],
+	"startAt": "2016-07-07 10:00",
+	"title": "Codelab: DESIGNING AN ANDROID WATCH APP"
+}, {
+	"description": "With Google Play Services Version 7.8, which was released in August 2015, Google introduced the Nearby API.\nThis API makes use of an array of technologies like Wifi, Bluetooth, Beacons and even Audio to communicate with nearby objects like Bus Stops, Train platforms or even Indoor Locations like a museum.\nThere are a lot of possibilities for using the Nearby API, for example creating a Local Multiplayer game where people which are physically next to each other can join a game without the need of an internet connection. Or a smart bus stop that might tell you that your next bus is delayed by 10 minutes due to an accident and therefor provides you with some interesting articles to spend your time wisely while waiting. The use cases are almost endless.\nThe audience will get a quick overview about the Nearby API and get an understanding of how it functions and what can be done with the Nearby API.\nThis talk will touch the Nearby Messages API, the Nearby Locations API and the (eddystone) beacon technology.",
+	"duration": 40,
+	"id": 19,
+	"roomId": 1,
+	"speakersId": [18],
+	"startAt": "2016-07-07 10:00",
+	"title": "NEARBY API – I’M LOST, LET’S SEE WHAT’S NEARBY!"
+}, {
+	"description": "In this talk we will learn how to make code meant to be used and maintained by others in an open source community. We will focus on some of the most important aspects of public coding while creating a new Android library.\nIf you still have issues designing your API to make it easy and extensible or just want to learn how to deal with library version numbers and manage a public version control system (VCS) you are welcome to join us in this adventure.",
+	"duration": 30,
+	"id": 20,
+	"roomId": 1,
+	"speakersId": [19],
+	"startAt": "2016-07-07 10:00",
+	"title": "HOW NOT TO BECOME A PUBLIC ENEMY"
+}, {
+	"description": "In Ezhome we are using Firebase because we need to support our users to continue their work even without network connection. We created an RxJava Firebase implementation in order to be used based on our clean architecture approach.\nIn the presentation we will discuss which are the pros and cons of using Firebase in a production environment and which are the problems which you are going to face and how to eliminate them in an effective way.\nIn the same presentation we will present the RxFirebase library and the usage on top of firebase and how you can effective use it in a clean architecture approach.",
+	"duration": 30,
+	"id": 21,
+	"roomId": 1,
+	"speakersId": [20],
+	"startAt": "2016-07-07 10:00",
+	"title": "FIREBASE & RxJava ON ANDROID"
+}, {
+	"description": "Basic4Android is an IDE (integrated development environment) and ‘RAD’ tool (rapid application development). As that title suggests, the aim is to facilitate the fast and easy creation of apps. Unlike many ‘wizards’, B4A is a tool for developers. It doesn’t limit you in any way. With the vast range of libraries your app can do everything that Android is capable of.\nThat is to say, that this is not an ‘app builder’ aimed at people who don’t want to do any coding. You will have to code but it’s more accessible for beginners and there are a lot of neat features to make the process simpler.\nThere are more unique advantages of Basic4Android too. One is that it is part of a ‘B4x’ suite of tools, along with ‘B4J’ (Basic4Java) and ‘B4i. In other words, because the syntax is largely the same for Basic4Android, Basic4Java and Basic4iOS, you can create a simple app on the PC and then swap out some libraries and platform-specific features in order to port it to both Android and iPhone.You can also use B4J to make simple little desktop apps for your own purposes, or to create apps that need to communicate with the computer or a server.",
+	"duration": 30,
+	"id": 22,
+	"roomId": 1,
+	"speakersId": [21],
+	"startAt": "2016-07-07 10:00",
+	"title": "BASIC4ANDROID – A SIMPLE RAD TOOL TO DEVELOP REAL-WORLD, NATIVE ANDROID APPS!"
+}, {
+	"description": "A practical guide to using RxJava on Android. Tips for improving your app architecture with reactive programming. What are the advantages and disadvantages of using RxJava over standard architecture? And how to connect with other popular Android libraries?",
+	"duration": 45,
+	"id": 23,
+	"roomId": 1,
+	"speakersId": [22],
+	"startAt": "2016-07-07 10:00",
+	"title": "PRACTICAL RxJava FOR ANDROID"
+}]

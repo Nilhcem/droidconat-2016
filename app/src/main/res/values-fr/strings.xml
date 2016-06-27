@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core -->
+    <string name="core_app_name">Droidcon Grèce 2016</string>
+
+    <!-- Connection error -->
+    <string name="connection_error">Erreur de connexion</string>
+    <string name="connection_error_retry">Réessayer</string>
+
+    <!-- Drawer Activity -->
+    <string name="drawer_open">Ouvrir le menu de navigation</string>
+    <string name="drawer_close">Fermer le menu de navigation</string>
+    <string name="drawer_header_headline">Droidcon Grèce</string>
+    <string name="drawer_header_subheadline">07 au 09 Juillet 2016</string>
+    <string name="drawer_nav_agenda">Les sessions</string>
+    <string name="drawer_nav_schedule">Mon agenda</string>
+    <string name="drawer_nav_speakers">Orateurs</string>
+    <string name="drawer_nav_venue">Le lieu</string>
+    <string name="drawer_nav_settings">Paramètres</string>
+
+    <!-- Schedule -->
+    <string name="schedule_browse_sessions">Parcourir les sessions</string>
+    <string name="schedule_browse_sessions_title_pattern">%1$s, %2$s</string>
+    <string name="schedule_pager_day_pattern">EEEE dd</string>
+    <string name="schedule_day_entry_session_time_format">%1$s - %2$s (%3$dmins)</string>
+
+    <!-- Session details -->
+    <string name="session_details_talk_info">%1$s, %2$s - %3$s\n%4$s</string>
+    <string name="session_details_talk_info_date_pattern">dd MMM YYYY</string>
+    <string name="session_details_description">Description</string>
+    <string name="session_details_added">Ajouté à mon agenda</string>
+    <string name="session_details_removed">Supprimé de mon agenda</string>
+    <plurals name="session_details_speakers">
+        <item quantity="one">Orateur</item>
+        <item quantity="other">Orateurs</item>
+    </plurals>
+
+    <!-- Speaker details -->
+    <string name="speaker_details_hide">Fermer</string>
+
+    <!-- Venue -->
+    <string name="venue_see_location">Voir sur la carte</string>
+    <string name="venue_see_location_error">Erreur lors de l\'ouverture de la carte.\nAvez-vous bien Google Maps installé sur votre appareil ?</string>
+    <string name="venue_title">Noesis Thessaloniki Science Center &amp; Technology Museum</string>
+    <string name="venue_address">6ο χλμ. Οδού ς Τ.Θ. 60330 Θέρμη, Thermi 570 01, Grèce</string>
+    <string name="venue_info">\nThessaloniki (thess-ah-lo-nee-kih), also called Salonica, is the 2nd largest city in Greece. The City offers multi-cultural centers and attractions, fancy nightlife and gastronomic spots. With its breezy mood and cozy lifestyle across you, stands perfect for travelers that have only a few days to spend. Let’s take a 1st glance!\n\nGETTING AROUND THESSALONIKI\nTo/From the Airport:\nBus 78 and 78N (Public transportation) runs every 30min from the airport to bus station via city center and train station. Ticket price is fixed (2€). Taxis to and from the airport cost approx. 15-20€, but be prepared for a doubled fare between 00:00–05:00.\n\nBus transports\nThessaloniki Urban Transport Organization (OASTH) is the only public means of transport in the city. There are several types of ticket: single trip, two trips within 70min from the time of issue, three trips within 90min from the time of issue and four trips within 120min from the time of issue and can be bought at periptera (street kiosks). The 1st and 2nd ticket types can also be bought from on-board ticket machines (no exchange and a little extra charge). Travel cards are also available.\n\nCar\nProbably, it may be difficult to find free parking, but there are several rent a car offices in the city. You can find a few of them at the airport when you land.\n</string>
+    <string name="venue_see_rooms">Plan des Salles</string>
+
+    <!-- Settings -->
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notify_about_my_sessions">M\'alerter lorsqu\'une session commence</string>
+    <string name="settings_notify_about_my_sessions_description">Affiche une notification lorsqu\'une session sélectionnée est prête à commencer</string>
+    <string name="settings_about">À propos</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_conf_title">Droidcon Grèce</string>
+    <string name="settings_about_sources_title">Code source</string>
+    <string name="settings_about_developer_title">Fait maison par</string>
+
+    <!-- Sessions reminder -->
+    <string name="reminder_about_to_start">La session %1$s va commencer !</string>
+</resources>
