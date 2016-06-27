@@ -41,9 +41,9 @@
     <!-- Venue -->
     <string name="venue_see_location">Voir sur la carte</string>
     <string name="venue_see_location_error">Erreur lors de l\'ouverture de la carte.\nAvez-vous bien Google Maps installé sur votre appareil ?</string>
-    <string name="venue_title">Noesis Thessaloniki Science Center &amp; Technology Museum</string>
-    <string name="venue_address">6ο χλμ. Οδού ς Τ.Θ. 60330 Θέρμη, Thermi 570 01, Grèce</string>
-    <string name="venue_info">\nThessaloniki (thess-ah-lo-nee-kih), also called Salonica, is the 2nd largest city in Greece. The City offers multi-cultural centers and attractions, fancy nightlife and gastronomic spots. With its breezy mood and cozy lifestyle across you, stands perfect for travelers that have only a few days to spend. Let’s take a 1st glance!\n\nGETTING AROUND THESSALONIKI\nTo/From the Airport:\nBus 78 and 78N (Public transportation) runs every 30min from the airport to bus station via city center and train station. Ticket price is fixed (2€). Taxis to and from the airport cost approx. 15-20€, but be prepared for a doubled fare between 00:00–05:00.\n\nBus transports\nThessaloniki Urban Transport Organization (OASTH) is the only public means of transport in the city. There are several types of ticket: single trip, two trips within 70min from the time of issue, three trips within 90min from the time of issue and four trips within 120min from the time of issue and can be bought at periptera (street kiosks). The 1st and 2nd ticket types can also be bought from on-board ticket machines (no exchange and a little extra charge). Travel cards are also available.\n\nCar\nProbably, it may be difficult to find free parking, but there are several rent a car offices in the city. You can find a few of them at the airport when you land.\n</string>
+    <string name="venue_title">Technikum Wien\nUniversity of Applied Sciences</string>
+    <string name="venue_address">Höchstädtplatz 6, 1200 Vienna</string>
+    <string name="venue_info">\nUniversity of Applied Sciences Technikum Wien (German: Fachhochschule Technikum Wien) was founded in 1994 and became Vienna\'s first university of applied sciences in 2000.\nIt is the largest technical university of applied sciences in Austria and offers thirteen bachelor\'s degree and seventeen master\'s degree programs.\n\n- Three large session rooms\n- Audi max for keynote\n- Located next to U6 and S-Bahn\n</string>
     <string name="venue_see_rooms">Plan des Salles</string>
 
     <!-- Settings -->
