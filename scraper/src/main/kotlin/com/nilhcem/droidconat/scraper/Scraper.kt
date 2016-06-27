@@ -27,6 +27,7 @@ class Scraper {
         println("Start scraping")
         jsoup(SPEAKERS_URL).select(".modals .people-modal .modal-body")
                 .forEachIndexed { i, it ->
+                    val speakerId = speakers.size + 1
                     val speakerPhoto = "$BASE_URL${IMG_REGEX.find(it.select(".people-img").attr("style"))!!.groups[1]!!.value}"
                     val speakerName = NAME_REGEX.find(it.select(".name").fmtText())!!.groups[1]!!.value.trim()
                     val speakerTitle = with (it.select(".position").fmtText()) { if (startsWith(", ")) substring(2) else this }
@@ -37,11 +38,18 @@ class Scraper {
                     val githubUrl = links.filter { it.contains("github.com/", true) }.firstOrNull()
                     val githubHandle = getHandleFromUrl(githubUrl)
                     val websiteUrl = links.filter { !it.equals(twitterUrl) && !it.equals(githubUrl) }.firstOrNull()
-                    speakers.add(Speaker(i + 1, speakerName, speakerTitle, speakerPhoto, speakerBio, websiteUrl, twitterHandler, githubHandle))
+                    speakers.add(Speaker(speakerId, speakerName, speakerTitle, speakerPhoto, speakerBio, websiteUrl, twitterHandler, githubHandle))
 
                     val sessionTitle = it.select("h4").first().fmtText()
                     val sessionDesc = it.select(".theme-description").fmtText()
-                    sessions.add(Session(i + 1, sessionTitle, sessionDesc, listOf(i + 1), "2016-09-16 10:00", 45, Room.ROOM_1.id))
+
+                    val existingSession = sessions.filter { it.title == sessionTitle }.firstOrNull()
+
+                    if (existingSession == null) {
+                        sessions.add(Session(sessions.size + 1, sessionTitle, sessionDesc, mutableListOf(speakerId), "2016-09-16 10:00", 45, Room.ROOM_1.id))
+                    } else {
+                        existingSession.speakersId.add(speakerId)
+                    }
                 }
     }
 
