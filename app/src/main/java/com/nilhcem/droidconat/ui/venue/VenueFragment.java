@@ -25,7 +25,7 @@ public class VenueFragment extends BaseFragment {
     @BindView(R.id.venue_image) ImageView photo;
 
     private static final float PHOTO_RATIO = 0.338f;
-    private static final String COORDINATES_URI = "geo:40.561793,22.995043?q=" + Uri.encode("Noesis Thessaloniki Science Center & Technology Museum");
+    private static final String COORDINATES_URI = "geo:48.2392867,16.3751354?q=" + Uri.encode("Technikum Wien | University of Applied Sciences");
 
     @Override
     protected BaseFragmentPresenter newPresenter() {
