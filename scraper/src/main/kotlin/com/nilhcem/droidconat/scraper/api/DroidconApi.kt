@@ -1,8 +1,8 @@
-package com.nilhcem.droidconat.scraperjson.api
+package com.nilhcem.droidconat.scraper.api
 
-import com.nilhcem.droidconat.scraperjson.model.input.ScheduleDay
-import com.nilhcem.droidconat.scraperjson.model.input.Session
-import com.nilhcem.droidconat.scraperjson.model.input.Speaker
+import com.nilhcem.droidconat.scraper.model.input.ScheduleDay
+import com.nilhcem.droidconat.scraper.model.input.Session
+import com.nilhcem.droidconat.scraper.model.input.Speaker
 import com.squareup.moshi.Moshi
 import okhttp3.OkHttpClient
 import retrofit2.Call

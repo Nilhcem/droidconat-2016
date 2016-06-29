@@ -1,4 +1,4 @@
-package com.nilhcem.droidconat.scraperjson.model.input
+package com.nilhcem.droidconat.scraper.model.input
 
 data class ScheduleDay(val date: String, val dateReadable: String, val tracks: List<ScheduleTrack>, val timeslots: List<ScheduleTimeSlot>)
 

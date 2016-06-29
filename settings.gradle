@@ -1,1 +1,1 @@
-include ':app', ':scraper-web', ':scraper-json'
+include ':app', ':scraper'

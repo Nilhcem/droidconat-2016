@@ -1,14 +1,14 @@
-package com.nilhcem.droidconat.scraperjson.model
+package com.nilhcem.droidconat.scraper.model
 
-import com.nilhcem.droidconat.scraperjson.model.input.ScheduleDay
-import com.nilhcem.droidconat.scraperjson.model.input.SocialLink
-import com.nilhcem.droidconat.scraperjson.model.output.Room
+import com.nilhcem.droidconat.scraper.model.input.ScheduleDay
+import com.nilhcem.droidconat.scraper.model.input.SocialLink
+import com.nilhcem.droidconat.scraper.model.output.Room
 import java.text.SimpleDateFormat
 import java.util.*
-import com.nilhcem.droidconat.scraperjson.model.input.Session as ApiSession
-import com.nilhcem.droidconat.scraperjson.model.input.Speaker as ApiSpeaker
-import com.nilhcem.droidconat.scraperjson.model.output.Session as AppSession
-import com.nilhcem.droidconat.scraperjson.model.output.Speaker as AppSpeaker
+import com.nilhcem.droidconat.scraper.model.input.Session as ApiSession
+import com.nilhcem.droidconat.scraper.model.input.Speaker as ApiSpeaker
+import com.nilhcem.droidconat.scraper.model.output.Session as AppSession
+import com.nilhcem.droidconat.scraper.model.output.Speaker as AppSpeaker
 
 object Mapper {
 
@@ -19,9 +19,9 @@ object Mapper {
         val title = listOfNotNull(speaker.title, speaker.company).joinToString(", ")
         val photo = "https://droidcon.at/img/people/${speaker.thumbnailUrl}"
         val bio = speaker.bio
-        val twitter = speaker.social?.filter { it.name == "twitter" }.getLink()
-        val github = speaker.social?.filter { it.name == "github" }.getLink()
-        val website = speaker.social?.filter { it.name != "twitter" && it.name != "github" }.getLink()
+        val twitter = speaker.social?.filter { it.name == "twitter" }?.getLink()
+        val github = speaker.social?.filter { it.name == "github" }?.getLink()
+        val website = speaker.social?.filter { it.name != "twitter" && it.name != "github" }?.getLink()
 
         return AppSpeaker(id + 1, name, title, photo, bio, website, twitter, github)
     }
@@ -60,5 +60,5 @@ object Mapper {
         return AppSession(id + 1, title, description, speakersIds, startAt, duration, room)
     }
 
-    private fun List<SocialLink>?.getLink() = this?.map { it.link }?.firstOrNull()
+    private fun List<SocialLink>.getLink() = this.map { it.link }.firstOrNull()
 }

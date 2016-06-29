@@ -1,8 +1,8 @@
-package com.nilhcem.droidconat.scraperjson
+package com.nilhcem.droidconat.scraper
 
-import com.nilhcem.droidconat.scraperjson.api.DroidconApi
-import com.nilhcem.droidconat.scraperjson.model.output.Session
-import com.nilhcem.droidconat.scraperjson.model.output.Speaker
+import com.nilhcem.droidconat.scraper.api.DroidconApi
+import com.nilhcem.droidconat.scraper.model.output.Session
+import com.nilhcem.droidconat.scraper.model.output.Speaker
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Types
 import java.io.File
