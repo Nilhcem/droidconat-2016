@@ -1,4 +1,4 @@
-package com.nilhcem.droidconat.scraper.model
+package com.nilhcem.droidconat.scraperweb.model
 
 enum class Room(val id: Int, val roomName: String) {
 

@@ -1,8 +1,8 @@
-package com.nilhcem.droidconat.scraper
+package com.nilhcem.droidconat.scraperweb
 
-import com.nilhcem.droidconat.scraper.model.Room
-import com.nilhcem.droidconat.scraper.model.Session
-import com.nilhcem.droidconat.scraper.model.Speaker
+import com.nilhcem.droidconat.scraperweb.model.Room
+import com.nilhcem.droidconat.scraperweb.model.Session
+import com.nilhcem.droidconat.scraperweb.model.Speaker
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element

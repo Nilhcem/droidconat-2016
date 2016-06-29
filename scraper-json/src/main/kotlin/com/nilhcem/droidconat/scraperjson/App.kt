@@ -1,20 +1,20 @@
-package com.nilhcem.droidconat.scraper
+package com.nilhcem.droidconat.scraperjson
 
-import com.nilhcem.droidconat.scraper.model.Session
-import com.nilhcem.droidconat.scraper.model.Speaker
+import com.nilhcem.droidconat.scraperjson.api.DroidconApi
+import com.nilhcem.droidconat.scraperjson.model.output.Session
+import com.nilhcem.droidconat.scraperjson.model.output.Speaker
 import com.squareup.moshi.JsonAdapter
-import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
 import java.io.File
 
 fun main(args: Array<String>) {
-    with (Scraper()) {
+    with (Scraper(DroidconApi.SERVICE)) {
         createJsons(speakers, sessions)
     }
 }
 
 fun createJsons(speakers: List<Speaker>, sessions: List<Session>) {
-    val moshi = Moshi.Builder().build()
+    val moshi = DroidconApi.MOSHI
     File("output").mkdir()
 
     File("output/speakers.json").printWriter().use { out ->
