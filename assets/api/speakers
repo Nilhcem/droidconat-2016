@@ -1,44 +1,44 @@
 [{
-	"bio": "Laurence Moroney has authored more programming books than he can remember.\nA well known speaker at conferences such as Google I/O, Microsoft Build, and others, he is passionate about mobile development, and Android in particular. When not messing around with development, he is a published Sci-Fi novelist and produced screenwriter.\nFollow Laurence on lmoroney",
+	"bio": "Laurence Moroney has authored more programming books than he can remember.<br>A well known speaker at conferences such as Google I/O, Microsoft Build, and others, he is passionate about mobile development, and Android in particular. When not messing around with development, he is a published Sci-Fi novelist and produced screenwriter.<br>Follow Laurence on <a href='https://twitter.com/lmoroney' target='_blank'>lmoroney</a>",
 	"id": 1,
 	"name": "Laurence Moroney",
 	"photo": "https://droidcon.at/img/people/LaurenceMoroney.jpg",
 	"title": "Developer Advocate at Google, Google",
-	"twitter": "lmoroney",
+	"twitter": "https://twitter.com/lmoroney",
 	"website": "https://plus.google.com/+LaurenceMoroney/"
 }, {
-	"bio": "Andrea Falcone is a Senior Software Engineer at Twitter. She has worked on many parts of Fabric, building the Android tooling, including Android Studio Plugin, Crashlytics Android SDK, Gradle plugin and Beta by Crashlytics. She is currently working on fastlane, an open source release process automation suite. Past talks: github.com/asfalcone/talks",
-	"github": "asfalcone",
+	"bio": "Andrea Falcone is a Senior Software Engineer at Twitter. She has worked on many parts of Fabric, building the Android tooling, including Android Studio Plugin, Crashlytics Android SDK, Gradle plugin and Beta by Crashlytics. She is currently working on fastlane, an open source release process automation suite. Past talks: <a href=\"https://github.com/asfalcone/talks\" target=\"_blank\">github.com/asfalcone/talks</a>",
+	"github": "https://github.com/asfalcone",
 	"id": 2,
 	"name": "Andrea Falcone",
 	"photo": "https://droidcon.at/img/people/AndreaFalcone.jpg",
 	"title": "Software Engineer, Twitter",
-	"twitter": "asfalcone"
+	"twitter": "https://twitter.com/asfalcone"
 }, {
 	"bio": "Gautier is an aspiring Software Craftsman at happn in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
-	"github": "Nilhcem",
+	"github": "https://github.com/Nilhcem",
 	"id": 3,
 	"name": "Gautier Mechling",
 	"photo": "https://droidcon.at/img/people/GautierMechling.jpg",
 	"title": "Software Craftsman, happn, Paris",
-	"twitter": "Nilhcem",
+	"twitter": "https://twitter.com/Nilhcem",
 	"website": "https://plus.google.com/+GautierMechling"
 }, {
 	"bio": "Daniel Hartwich is an aspiring Android Developer at the German company XING AG located in Hamburg. He has been programming for the Android platform since 2013. Whenever Google releases anything new regarding Android, Daniel instantly gets interested and investigates everything - up to the smallest detail.",
-	"github": "dhartwich1991",
+	"github": "https://github.com/dhartwich1991",
 	"id": 4,
 	"name": "Daniel Hartwich",
 	"photo": "https://droidcon.at/img/people/DanielHartwich.jpg",
 	"title": "XING",
-	"twitter": "KiLLyA_"
+	"twitter": "https://twitter.com/KiLLyA_"
 }, {
 	"bio": "I take care of the android side of native shopping apps at Marks & Spencer in London. My favourite topics are testing and automation, and I spend a lot of time playing about in that. In my spare time I talk at conferences or fiddle with some obscure technologies.",
-	"github": "zmarkan",
+	"github": "https://github.com/zmarkan",
 	"id": 5,
 	"name": "Žan Markan",
 	"photo": "https://droidcon.at/img/people/ZanMarkan.jpg",
 	"title": "Marks & Spencer",
-	"twitter": "zmarkan",
+	"twitter": "https://twitter.com/zmarkan",
 	"website": "https://plus.google.com/+%C5%BDanMarkan"
 }, {
 	"bio": "I started writing web apps and websites in 2004 as a hobby. Those were simple apps written with XHTML, CSS and PHP/MySQL combo. 6 years later I decided to make a living out of my hobby so I got my first pro job in company Superius Ltd. where I've worked as a developer. A variety of everyday tasks with different technologies such as SQL Server 2005, 2008, 2008R2, PostgreSQL, PHP, Java, Android SDK expanded my knowledge and my views beyond simple and easy to implement things to large ERP and BI Systems, Mobile application development. In March 2012, I moved to another company and another city (Zagreb) in which I got a better grasp of technologies such as Java. Besides my regular work I enjoy expanding my knowledge with good books. After 2 years at Interactive1, I moved to an awesome company in Zagreb - Infinum. I improved in mobile development - Android to be exact and after 2 years here I became team lead.",
@@ -46,7 +46,7 @@
 	"name": "Kristijan Jurković",
 	"photo": "https://droidcon.at/img/people/KristijanJurkovic.jpg",
 	"title": "Android Team Lead, Infinum",
-	"twitter": "kjurkovic",
+	"twitter": "https://www.twitter.com/kjurkovic",
 	"website": "http://www.linkedin.com/in/kristijanjurkovic"
 }, {
 	"bio": "Born in Vienna, I was writing code for as long as I can think back – including for the ZX Spectrum. Just music, but hey :-) I did my bachelor degree in information and communication systems, and am working on my master degree paper in the same area. I'm a senior Java/Android developer but also spent nearly as much time in web development with PHP, SQL and JavaScript. I started Android development in 2011, and joined PSPDFKit in 2015, where I helped a lot with improving the public framework API, and invested a lot of time in creating a stable, easy-to-use and comprehensive test suite.",
@@ -54,7 +54,7 @@
 	"name": "David Schreiber-Ranner",
 	"photo": "https://droidcon.at/img/people/DavidSchreiber-Ranner.jpg",
 	"title": "PSPDFKit",
-	"twitter": "Flashmasterdash",
+	"twitter": "https://twitter.com/Flashmasterdash",
 	"website": "https://plus.google.com/112371263315253005287"
 }, {
 	"bio": "Željko has been a part of the Infinum Android team for 3 years. He has mastered all those nasty bugs and errors which can occur while developing even the most complicated projects. His passions include ORM libraries and frameworks, Android Studio and contributing to open source. His love for Android Studio can only be matched by his hatred for Eclipse",
@@ -62,33 +62,33 @@
 	"name": "Željko Plesac",
 	"photo": "https://droidcon.at/img/people/ZeljkoPlesac.jpg",
 	"title": "Infinum",
-	"twitter": "ZeljkoPlesac",
+	"twitter": "https://twitter.com/ZeljkoPlesac",
 	"website": "https://hr.linkedin.com/in/željko-plesac-01551214"
 }, {
 	"bio": "Hasan Hoşgel is a dedicated Android developer and a Google Developer Export for Android with over fiveteen years of professional programming experience. Since 2010 doing all day long Android application development. Continuous improvement of the architecture, performance and also quality are his dedication. He works since 2006 for ImmobilienScout24, Germany’s real estate marketplace leader. With a short intermezzo at Kitchen Stories, which offered a premium cooking application. As a co-organizer of the “GDG Berlin Android” and as a speaker he attended many mobile conferences and several Google Developer Groups across Europe. As well being in program committees and organization of mobile conferences.",
-	"github": "alosdev",
+	"github": "https://github.com/alosdev",
 	"id": 9,
 	"name": "Hasan Hoşgel",
 	"photo": "https://droidcon.at/img/people/HasanHosgel.jpg",
-	"title": ",",
-	"twitter": "alosdev",
+	"title": "Google Developer Expert, ImmobilienScout24",
+	"twitter": "https://www.twitter.com/alosdev",
 	"website": "https://plus.google.com/+HasanHosgel"
 }, {
 	"bio": "During college I got involved in e-learning projects where I developed in Java, and ended up in love with it. After graduation I got a job at Infinum as an Android developer, and have been working there ever since. By the end of 2014. I switched from various project in the telecommunication, medical and travel industry to mobile banking, where I became the Technical Manager of Mobile Banking in early 2016. My responsibilities include researching new technology and advancements in security, making sure new practices are implemented and generally pushing things forward in the right direction. I love making quality, reliable products. Apart from the effort you put in the architecture of the project, I believe that the details will define the difference between good and really amazing. We prefer amazing.",
 	"id": 10,
 	"name": "Ana Baotić",
 	"photo": "https://droidcon.at/img/people/AnaBaotic.jpg",
-	"title": "Technical Manager, Infinum",
-	"twitter": "abaotic",
+	"title": "Technical Manager Mobile Banking, Infinum",
+	"twitter": "https://twitter.com/abaotic",
 	"website": "https://www.linkedin.com/in/abaotic"
 }, {
-	"bio": "Svetlana is a Developer Advocate at JetBrains. She's been working on the Kotlin language (kotlinlang.org) since 2011. She is one of the authors of the 'Kotlin in Action' book.",
-	"github": "svtk",
+	"bio": "Svetlana is a Developer Advocate at JetBrains. She's been working on the Kotlin language (<a href='http://kotlinlang.org/' target='_blank'>kotlinlang.org</a>) since 2011. She is one of the authors of the 'Kotlin in Action' book.",
+	"github": "https://github.com/svtk",
 	"id": 11,
 	"name": "Svetlana Isakova",
 	"photo": "https://droidcon.at/img/people/SvetlanaIsakova.jpg",
 	"title": "Developer Advocate, Jetbrains",
-	"twitter": "sveta_isakova",
+	"twitter": "https://twitter.com/sveta_isakova",
 	"website": "https://www.linkedin.com/in/svetlana-isakova-3b7b25a3"
 }, {
 	"bio": "Christian and Sina are passionate Android developers since the early days of the platform. At c4c Engineering they have spent a lot of time developing apps in the automotive area and have become experts with multiple concepts of integrating smartphones into vehicles and their implementations (e.g. Android Auto, MirrorLink, CarPlay).",
