@@ -35,4 +35,6 @@ dependencies {
 
     compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
     compile "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
+
+    compile 'org.jsoup:jsoup:1.9.2'
 }

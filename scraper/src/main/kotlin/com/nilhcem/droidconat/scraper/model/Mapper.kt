@@ -3,8 +3,12 @@ package com.nilhcem.droidconat.scraper.model
 import com.nilhcem.droidconat.scraper.model.input.ScheduleDay
 import com.nilhcem.droidconat.scraper.model.input.SocialLink
 import com.nilhcem.droidconat.scraper.model.output.Room
+import org.jsoup.Jsoup
+import org.jsoup.nodes.Document
+import org.jsoup.safety.Whitelist
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.text.RegexOption.IGNORE_CASE
 import com.nilhcem.droidconat.scraper.model.input.Session as ApiSession
 import com.nilhcem.droidconat.scraper.model.input.Speaker as ApiSpeaker
 import com.nilhcem.droidconat.scraper.model.output.Session as AppSession
@@ -18,7 +22,7 @@ object Mapper {
         val name = "${speaker.name} ${speaker.surname}"
         val title = listOfNotNull(speaker.title, speaker.company).joinToString(", ")
         val photo = "https://droidcon.at/img/people/${speaker.thumbnailUrl}"
-        val bio = speaker.bio
+        val bio = speaker.bio.parseHtml()
         val twitter = speaker.social?.filter { it.name == "twitter" }?.getLink()
         val github = speaker.social?.filter { it.name == "github" }?.getLink()
         val website = speaker.social?.filter { it.name != "twitter" && it.name != "github" }?.getLink()
@@ -53,12 +57,27 @@ object Mapper {
     }
 
     private fun createSession(id: Int, speakersMap: Map<String, AppSpeaker>, startAt: String, duration: Int, roomId: Int, session: ApiSession): AppSession {
-        val title = session.title
-        val description = session.description
+        val title = session.title.parseHtml()
+        val description = session.description?.parseHtml()
         val speakersIds = session.speakers?.map { speakersMap[it]?.id }?.filterNotNull()
         val room = if (session.service ?: false) Room.NONE.id else roomId
         return AppSession(id + 1, title, description, speakersIds, startAt, duration, room)
     }
 
     private fun List<SocialLink>.getLink() = this.map { it.link }.firstOrNull()
+
+    private fun String.parseHtml() = Jsoup.clean(this, "", Whitelist.basic(),
+            Document.OutputSettings().prettyPrint(false))
+            .replace(Regex("&nbsp;", IGNORE_CASE), " ")
+            .replace(Regex("&amp;", IGNORE_CASE), "&")
+            .replace(Regex("&gt;", IGNORE_CASE), ">").replace(Regex("&lt;", IGNORE_CASE), "<")
+            .replace(Regex("<br[\\s/]*>", IGNORE_CASE), "\n")
+            .replace(Regex("<p>", IGNORE_CASE), "").replace(Regex("</p>", IGNORE_CASE), "\n")
+            .replace(Regex("</?ul>", IGNORE_CASE), "")
+            .replace(Regex("<li>", IGNORE_CASE), "• ").replace(Regex("</li>", IGNORE_CASE), "\n")
+            .replace(Regex("\n\n• ", IGNORE_CASE), "\n• ")
+            .replace(Regex("<a\\s[^>]*>", IGNORE_CASE), "").replace(Regex("</a>", IGNORE_CASE), "")
+            .replace(Regex("</?strong>", IGNORE_CASE), "")
+            .replace(Regex("</?em>", IGNORE_CASE), "")
+            .replace(Regex("\\s*\n\\s*"), "\n").replace(Regex("^\n"), "").replace(Regex("\n$"), "")
 }
