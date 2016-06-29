@@ -95,12 +95,12 @@
 	"id": 12,
 	"name": "Sina Grunau",
 	"photo": "https://droidcon.at/img/people/SinaGrunau.jpg",
-	"title": "Android Developer, c4 Engineering"
+	"title": "Android Developer, c4c Engineering"
 }, {
 	"bio": "Christian and Sina are passionate Android developers since the early days of the platform. At c4c Engineering they have spent a lot of time developing apps in the automotive area and have become experts with multiple concepts of integrating smartphones into vehicles and their implementations (e.g. Android Auto, MirrorLink, CarPlay).",
 	"id": 13,
 	"name": "Christian Dziuba",
 	"photo": "https://droidcon.at/img/people/ChristianDziuba.jpg",
-	"title": "Android Developer, c4 Engineering",
+	"title": "Android Developer, c4c Engineering",
 	"website": "https://www.xing.com/profile/Christian_Dziuba"
 }]
