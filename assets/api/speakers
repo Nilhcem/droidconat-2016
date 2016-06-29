@@ -1,5 +1,5 @@
 [{
-	"bio": "Laurence Moroney has authored more programming books than he can remember.<br>A well known speaker at conferences such as Google I/O, Microsoft Build, and others, he is passionate about mobile development, and Android in particular. When not messing around with development, he is a published Sci-Fi novelist and produced screenwriter.<br>Follow Laurence on <a href='https://twitter.com/lmoroney' target='_blank'>lmoroney</a>",
+	"bio": "Laurence Moroney has authored more programming books than he can remember.\nA well known speaker at conferences such as Google I/O, Microsoft Build, and others, he is passionate about mobile development, and Android in particular. When not messing around with development, he is a published Sci-Fi novelist and produced screenwriter.\nFollow Laurence on lmoroney",
 	"id": 1,
 	"name": "Laurence Moroney",
 	"photo": "https://droidcon.at/img/people/LaurenceMoroney.jpg",
@@ -7,7 +7,7 @@
 	"twitter": "https://twitter.com/lmoroney",
 	"website": "https://plus.google.com/+LaurenceMoroney/"
 }, {
-	"bio": "Andrea Falcone is a Senior Software Engineer at Twitter. She has worked on many parts of Fabric, building the Android tooling, including Android Studio Plugin, Crashlytics Android SDK, Gradle plugin and Beta by Crashlytics. She is currently working on fastlane, an open source release process automation suite. Past talks: <a href=\"https://github.com/asfalcone/talks\" target=\"_blank\">github.com/asfalcone/talks</a>",
+	"bio": "Andrea Falcone is a Senior Software Engineer at Twitter. She has worked on many parts of Fabric, building the Android tooling, including Android Studio Plugin, Crashlytics Android SDK, Gradle plugin and Beta by Crashlytics. She is currently working on fastlane, an open source release process automation suite. Past talks: github.com/asfalcone/talks",
 	"github": "https://github.com/asfalcone",
 	"id": 2,
 	"name": "Andrea Falcone",
@@ -82,7 +82,7 @@
 	"twitter": "https://twitter.com/abaotic",
 	"website": "https://www.linkedin.com/in/abaotic"
 }, {
-	"bio": "Svetlana is a Developer Advocate at JetBrains. She's been working on the Kotlin language (<a href='http://kotlinlang.org/' target='_blank'>kotlinlang.org</a>) since 2011. She is one of the authors of the 'Kotlin in Action' book.",
+	"bio": "Svetlana is a Developer Advocate at JetBrains. She's been working on the Kotlin language (kotlinlang.org) since 2011. She is one of the authors of the 'Kotlin in Action' book.",
 	"github": "https://github.com/svtk",
 	"id": 11,
 	"name": "Svetlana Isakova",

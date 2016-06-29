@@ -4,7 +4,7 @@
 	"id": 1,
 	"roomId": 0,
 	"startAt": "2016-09-16 08:00",
-	"title": "Breakfast &amp; Registration"
+	"title": "Breakfast & Registration"
 }, {
 	"description": "Opening of this day of droidcon Vienna",
 	"duration": 15,
@@ -13,7 +13,7 @@
 	"startAt": "2016-09-16 09:00",
 	"title": "Welcome"
 }, {
-	"description": "Google offers a terrific number of cloud-based mobile services under the brand Firebase.<br>Follow Laurence Moroney, Developer Advocate at Google, on this journey through the Firebase universe which makes the live of Android developers easier.",
+	"description": "Google offers a terrific number of cloud-based mobile services under the brand Firebase.\nFollow Laurence Moroney, Developer Advocate at Google, on this journey through the Firebase universe which makes the live of Android developers easier.",
 	"duration": 60,
 	"id": 3,
 	"roomId": 1,
@@ -21,7 +21,7 @@
 	"startAt": "2016-09-16 09:15",
 	"title": "Keynote"
 }, {
-	"description": "How would you like 2 extra hours of your time back every week? All mobile app developers face similar workflows as they work to upload an app to Google Play. Many of these processes are currently done manually, but why not automate them? Fabric’s set of developer tools, collectively called fastlane, makes building, testing, and releasing your app faster, reproducible and less troublesome, leaving developers more time to focus on feature code and not deployment! Learn how you can automate the tedious tasks to generate release notes, screenshots and push your final submission Google Play portal effortlessly from your command line with a powerful open source tool. <a href='https://github.com/fastlane/fastlane/' target='_blank'>github.com/fastlane/fastlane/</a>",
+	"description": "How would you like 2 extra hours of your time back every week? All mobile app developers face similar workflows as they work to upload an app to Google Play. Many of these processes are currently done manually, but why not automate them? Fabric’s set of developer tools, collectively called fastlane, makes building, testing, and releasing your app faster, reproducible and less troublesome, leaving developers more time to focus on feature code and not deployment! Learn how you can automate the tedious tasks to generate release notes, screenshots and push your final submission Google Play portal effortlessly from your command line with a powerful open source tool. github.com/fastlane/fastlane/",
 	"duration": 60,
 	"id": 4,
 	"roomId": 1,
@@ -44,7 +44,7 @@
 	"startAt": "2016-09-16 11:30",
 	"title": "You can do better with Kotlin"
 }, {
-	"description": "Whether your app is a pet project or has millions of users, you probably need the right tools, during the development, to help you modify persisted data in real time, simulate a slow/unstable HTTP(s) connection, detect bugs as fast as possible, or create mock servers to anticipate the development of a feature.<br>We will make a demonstration of all the tools we use, in 2016, to write maintainable code and improve our productivity.",
+	"description": "Whether your app is a pet project or has millions of users, you probably need the right tools, during the development, to help you modify persisted data in real time, simulate a slow/unstable HTTP(s) connection, detect bugs as fast as possible, or create mock servers to anticipate the development of a feature.\nWe will make a demonstration of all the tools we use, in 2016, to write maintainable code and improve our productivity.",
 	"duration": 60,
 	"id": 7,
 	"roomId": 2,
@@ -148,7 +148,7 @@
 	"id": 20,
 	"roomId": 0,
 	"startAt": "2016-09-17 09:00",
-	"title": "Breakfast &amp; Registration"
+	"title": "Breakfast & Registration"
 }, {
 	"description": "Opening of this day of droidcon Vienna",
 	"duration": 15,
