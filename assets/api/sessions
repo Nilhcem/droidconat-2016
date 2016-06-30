@@ -184,7 +184,7 @@
 	"duration": 60,
 	"id": 25,
 	"roomId": 2,
-	"speakersId": [],
+	"speakersId": [14],
 	"startAt": "2016-09-17 11:45",
 	"title": "MVVM architecture with the data binding library"
 }, {

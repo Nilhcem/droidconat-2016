@@ -103,4 +103,13 @@
 	"photo": "https://droidcon.at/img/people/ChristianDziuba.jpg",
 	"title": "Android Developer, c4c Engineering",
 	"website": "https://www.xing.com/profile/Christian_Dziuba"
+}, {
+	"bio": "Patrick Löwenstein is a Vienna based Android developer, currently working at Tailored Apps. Also, he is studying for his Master's degree in Computer Sciences at the Vienna University of Technology. Patrick also has an Android dev blog and is active on GitHub.",
+	"github": "https://github.com/patloew",
+	"id": 14,
+	"name": "Patrick Löwenstein",
+	"photo": "https://droidcon.at/img/people/PatrickLoewenstein.jpg",
+	"title": "Android Developer, Tailored Apps",
+	"twitter": "https://twitter.com/0ptrblog",
+	"website": "https://at.linkedin.com/in/patrickloewenstein"
 }]
