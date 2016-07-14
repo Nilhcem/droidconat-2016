@@ -180,44 +180,52 @@
 	"startAt": "2016-09-17 11:30",
 	"title": "Coffee Break"
 }, {
-	"description": "Model-View-Presenter (MVP) architecture is widely used in today’s Android apps to separate the view from the view logic and the model by introducing a presenter. Model-View-ViewModel (MVVM) is quite similar to MVP, with the view model acting as an enhanced presenter, using a data binder to keep the view model and the view in sync. By binding the view to view model properties, the data binder can handle view updates, without the need to manually set changed data back to the view (e.g. no more setText() or setVisibility() on a TextView). As with the presenter in MVP, the view model can easily be unit tested. This talk gives an introduction to the MVVM architecture and how it can be used on Android with the data binding library.",
+	"description": "You have tons of custom getters in your model classes to avoid getting null values where you don’t want them? Multiple null-checks for one effective line of code? And what’s about all the clumsy binding of views from your XML-layouts? Maybe you already accepted all that and more as part of building an Android app. But there is hope! With the fresh release of Kotlin 1.0 in February 2016 the JetBrains team gave Android developers a wonderful modern language to build their apps in a more concise, more readable and more stable way. And I will show you how to use the powers of Kotlin for your next Android project.",
 	"duration": 60,
 	"id": 25,
+	"roomId": 1,
+	"speakersId": [15],
+	"startAt": "2016-09-17 11:45",
+	"title": "The Blessings of Kotlin for Android"
+}, {
+	"description": "Model-View-Presenter (MVP) architecture is widely used in today’s Android apps to separate the view from the view logic and the model by introducing a presenter. Model-View-ViewModel (MVVM) is quite similar to MVP, with the view model acting as an enhanced presenter, using a data binder to keep the view model and the view in sync. By binding the view to view model properties, the data binder can handle view updates, without the need to manually set changed data back to the view (e.g. no more setText() or setVisibility() on a TextView). As with the presenter in MVP, the view model can easily be unit tested. This talk gives an introduction to the MVVM architecture and how it can be used on Android with the data binding library.",
+	"duration": 60,
+	"id": 26,
 	"roomId": 2,
 	"speakersId": [14],
 	"startAt": "2016-09-17 11:45",
 	"title": "MVVM architecture with the data binding library"
 }, {
 	"duration": 90,
-	"id": 26,
+	"id": 27,
 	"roomId": 0,
 	"startAt": "2016-09-17 12:45",
 	"title": "Lunch Break"
 }, {
 	"description": "Your content, selected by you!",
 	"duration": 105,
-	"id": 27,
+	"id": 28,
 	"roomId": 1,
 	"startAt": "2016-09-17 14:15",
 	"title": "Barcamp"
 }, {
 	"description": "The best time to talk with speakers and attendees",
 	"duration": 30,
-	"id": 28,
+	"id": 29,
 	"roomId": 0,
 	"startAt": "2016-09-17 16:00",
 	"title": "Coffee Break"
 }, {
 	"description": "Your content, selected by you!",
 	"duration": 90,
-	"id": 29,
+	"id": 30,
 	"roomId": 1,
 	"startAt": "2016-09-17 16:30",
 	"title": "Barcamp"
 }, {
 	"description": "Closing this conference day",
 	"duration": 15,
-	"id": 30,
+	"id": 31,
 	"roomId": 0,
 	"startAt": "2016-09-17 18:00",
 	"title": "Closing"

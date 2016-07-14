@@ -41,7 +41,7 @@
 	"twitter": "https://twitter.com/zmarkan",
 	"website": "https://plus.google.com/+%C5%BDanMarkan"
 }, {
-	"bio": "I started writing web apps and websites in 2004 as a hobby. Those were simple apps written with XHTML, CSS and PHP/MySQL combo. 6 years later I decided to make a living out of my hobby so I got my first pro job in company Superius Ltd. where I've worked as a developer. A variety of everyday tasks with different technologies such as SQL Server 2005, 2008, 2008R2, PostgreSQL, PHP, Java, Android SDK expanded my knowledge and my views beyond simple and easy to implement things to large ERP and BI Systems, Mobile application development. In March 2012, I moved to another company and another city (Zagreb) in which I got a better grasp of technologies such as Java. Besides my regular work I enjoy expanding my knowledge with good books. After 2 years at Interactive1, I moved to an awesome company in Zagreb - Infinum. I improved in mobile development - Android to be exact and after 2 years here I became team lead.",
+	"bio": "My programming path went from HTML, CSS and PHP/MySQL and ERP and BI Systems to Mobile development. With roughly 10 years of total programming experience and 6 years in mobile development, I became an Android team lead in an awesome cool young company from Zagreb - Infinum. Besides programming and learning new stuff, I enjoy reading a good book or getting wasted as noob in Counter Strike:GO.",
 	"id": 6,
 	"name": "Kristijan Jurković",
 	"photo": "https://droidcon.at/img/people/KristijanJurkovic.jpg",
@@ -91,18 +91,19 @@
 	"twitter": "https://twitter.com/sveta_isakova",
 	"website": "https://www.linkedin.com/in/svetlana-isakova-3b7b25a3"
 }, {
-	"bio": "Christian and Sina are passionate Android developers since the early days of the platform. At c4c Engineering they have spent a lot of time developing apps in the automotive area and have become experts with multiple concepts of integrating smartphones into vehicles and their implementations (e.g. Android Auto, MirrorLink, CarPlay).",
+	"bio": "Sina is a passionate Android developer since the early days of the platform. At c4c Engineering she spends a lot of time developing apps in the automotive and industrial area. She is interested in everything that improves and simplifies app development, such as continuous integration, architecture patterns, quality checks and testing.",
 	"id": 12,
 	"name": "Sina Grunau",
 	"photo": "https://droidcon.at/img/people/SinaGrunau.jpg",
-	"title": "Android Developer, c4c Engineering"
+	"title": "Android Developer, c4c Engineering",
+	"website": "https://plus.google.com/+SinaGrunau/"
 }, {
-	"bio": "Christian and Sina are passionate Android developers since the early days of the platform. At c4c Engineering they have spent a lot of time developing apps in the automotive area and have become experts with multiple concepts of integrating smartphones into vehicles and their implementations (e.g. Android Auto, MirrorLink, CarPlay).",
+	"bio": "Christian started Android development way back in 2009 during college when everybody still thought iPhones were the coolest gadgets in town. During his diploma thesis he did a lot of research about concepts of integrating smartphones into vehicles. He currently works at c4c Engineering where he spends his time working on automotive apps. He is always curious about new technologies, cool gadgets and the latest features of the Android platform. If he sees fancy and well-thought-out user interfaces build upon Material Design, his eyes will start to shine.",
 	"id": 13,
 	"name": "Christian Dziuba",
 	"photo": "https://droidcon.at/img/people/ChristianDziuba.jpg",
 	"title": "Android Developer, c4c Engineering",
-	"website": "https://www.xing.com/profile/Christian_Dziuba"
+	"website": "https://plus.google.com/+ChristianDziuba"
 }, {
 	"bio": "Patrick Löwenstein is a Vienna based Android developer, currently working at Tailored Apps. Also, he is studying for his Master's degree in Computer Sciences at the Vienna University of Technology. Patrick also has an Android dev blog and is active on GitHub.",
 	"github": "https://github.com/patloew",
@@ -112,4 +113,13 @@
 	"title": "Android Developer, Tailored Apps",
 	"twitter": "https://twitter.com/0ptrblog",
 	"website": "https://at.linkedin.com/in/patrickloewenstein"
+}, {
+	"bio": "Born in Vienna in 1986 & still living there. Using Java for 15 years, coding for the Android platform since 2009. Started as a freelancer at that time and implemented Android apps for clients like the Vienna based football club Austria Wien, the Raiffeisen bank, pharmaceutical companies Bayer and Gilead, also sport apps for the public television broadcaster ORF, and the biggest delivery service platform in Austria: Mjam. Since beginning of 2016 working in the Android team of the Vienna based startup Shpock.",
+	"github": "https://github.com/dnmbv",
+	"id": 15,
+	"name": "Daniel Niedermühlbichler",
+	"photo": "https://droidcon.at/img/people/DanielNiedermuehlbichler.jpg",
+	"title": "Android Developer, Shpock",
+	"twitter": "https://twitter.com/DaNiederm",
+	"website": "https://www.xing.com/profile/Daniel_Niedermuehlbichler"
 }]
