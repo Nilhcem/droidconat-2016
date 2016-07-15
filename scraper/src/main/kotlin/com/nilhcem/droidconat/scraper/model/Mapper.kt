@@ -23,11 +23,13 @@ object Mapper {
         val title = listOfNotNull(speaker.title, speaker.company).joinToString(", ")
         val photo = "https://droidcon.at/img/people/${speaker.thumbnailUrl}"
         val bio = speaker.bio.parseHtml()
-        val twitter = speaker.social?.filter { it.name == "twitter" }?.getLink()
-        val github = speaker.social?.filter { it.name == "github" }?.getLink()
+        val twitterUrl = speaker.social?.filter { it.name == "twitter" }?.getLink()
+        val twitterHandler = getHandleFromUrl(twitterUrl)
+        val githubUrl = speaker.social?.filter { it.name == "github" }?.getLink()
+        val githubHandle = getHandleFromUrl(githubUrl)
         val website = speaker.social?.filter { it.name != "twitter" && it.name != "github" }?.getLink()
 
-        return AppSpeaker(id + 1, name, title, photo, bio, website, twitter, github)
+        return AppSpeaker(id + 1, name, title, photo, bio, website, twitterHandler, githubHandle)
     }
 
     fun convertSession(speakersMap: Map<String, AppSpeaker>, sessionsMap: Map<Int, ApiSession>, days: List<ScheduleDay>): List<AppSession> {
@@ -62,6 +64,15 @@ object Mapper {
         val speakersIds = session.speakers?.map { speakersMap[it]?.id }?.filterNotNull()
         val room = if (session.service ?: false) Room.NONE.id else roomId
         return AppSession(id + 1, title, description, speakersIds, startAt, duration, room)
+    }
+
+    private fun getHandleFromUrl(url: String?): String? {
+        if (url == null) {
+            return null
+        }
+
+        val urlWithoutLastSlash = if (url.last() == '/') url.substring(0, url.length - 1) else url
+        return urlWithoutLastSlash.substring(urlWithoutLastSlash.lastIndexOf("/") + 1)
     }
 
     private fun List<SocialLink>.getLink() = this.map { it.link }.firstOrNull()
