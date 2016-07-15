@@ -4,41 +4,41 @@
 	"name": "Laurence Moroney",
 	"photo": "https://droidcon.at/img/people/LaurenceMoroney.jpg",
 	"title": "Developer Advocate at Google, Google",
-	"twitter": "https://twitter.com/lmoroney",
+	"twitter": "lmoroney",
 	"website": "https://plus.google.com/+LaurenceMoroney/"
 }, {
 	"bio": "Andrea Falcone is a Senior Software Engineer at Twitter. She has worked on many parts of Fabric, building the Android tooling, including Android Studio Plugin, Crashlytics Android SDK, Gradle plugin and Beta by Crashlytics. She is currently working on fastlane, an open source release process automation suite. Past talks: github.com/asfalcone/talks",
-	"github": "https://github.com/asfalcone",
+	"github": "asfalcone",
 	"id": 2,
 	"name": "Andrea Falcone",
 	"photo": "https://droidcon.at/img/people/AndreaFalcone.jpg",
 	"title": "Software Engineer, Twitter",
-	"twitter": "https://twitter.com/asfalcone"
+	"twitter": "asfalcone"
 }, {
 	"bio": "Gautier is an aspiring Software Craftsman at happn in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
-	"github": "https://github.com/Nilhcem",
+	"github": "Nilhcem",
 	"id": 3,
 	"name": "Gautier Mechling",
 	"photo": "https://droidcon.at/img/people/GautierMechling.jpg",
 	"title": "Software Craftsman, happn, Paris",
-	"twitter": "https://twitter.com/Nilhcem",
+	"twitter": "Nilhcem",
 	"website": "https://plus.google.com/+GautierMechling"
 }, {
 	"bio": "Daniel Hartwich is an aspiring Android Developer at the German company XING AG located in Hamburg. He has been programming for the Android platform since 2013. Whenever Google releases anything new regarding Android, Daniel instantly gets interested and investigates everything - up to the smallest detail.",
-	"github": "https://github.com/dhartwich1991",
+	"github": "dhartwich1991",
 	"id": 4,
 	"name": "Daniel Hartwich",
 	"photo": "https://droidcon.at/img/people/DanielHartwich.jpg",
 	"title": "XING",
-	"twitter": "https://twitter.com/KiLLyA_"
+	"twitter": "KiLLyA_"
 }, {
 	"bio": "I take care of the android side of native shopping apps at Marks & Spencer in London. My favourite topics are testing and automation, and I spend a lot of time playing about in that. In my spare time I talk at conferences or fiddle with some obscure technologies.",
-	"github": "https://github.com/zmarkan",
+	"github": "zmarkan",
 	"id": 5,
 	"name": "Žan Markan",
 	"photo": "https://droidcon.at/img/people/ZanMarkan.jpg",
 	"title": "Marks & Spencer",
-	"twitter": "https://twitter.com/zmarkan",
+	"twitter": "zmarkan",
 	"website": "https://plus.google.com/+%C5%BDanMarkan"
 }, {
 	"bio": "My programming path went from HTML, CSS and PHP/MySQL and ERP and BI Systems to Mobile development. With roughly 10 years of total programming experience and 6 years in mobile development, I became an Android team lead in an awesome cool young company from Zagreb - Infinum. Besides programming and learning new stuff, I enjoy reading a good book or getting wasted as noob in Counter Strike:GO.",
@@ -46,7 +46,7 @@
 	"name": "Kristijan Jurković",
 	"photo": "https://droidcon.at/img/people/KristijanJurkovic.jpg",
 	"title": "Android Team Lead, Infinum",
-	"twitter": "https://www.twitter.com/kjurkovic",
+	"twitter": "kjurkovic",
 	"website": "http://www.linkedin.com/in/kristijanjurkovic"
 }, {
 	"bio": "Born in Vienna, I was writing code for as long as I can think back – including for the ZX Spectrum. Just music, but hey :-) I did my bachelor degree in information and communication systems, and am working on my master degree paper in the same area. I'm a senior Java/Android developer but also spent nearly as much time in web development with PHP, SQL and JavaScript. I started Android development in 2011, and joined PSPDFKit in 2015, where I helped a lot with improving the public framework API, and invested a lot of time in creating a stable, easy-to-use and comprehensive test suite.",
@@ -54,7 +54,7 @@
 	"name": "David Schreiber-Ranner",
 	"photo": "https://droidcon.at/img/people/DavidSchreiber-Ranner.jpg",
 	"title": "PSPDFKit",
-	"twitter": "https://twitter.com/Flashmasterdash",
+	"twitter": "Flashmasterdash",
 	"website": "https://plus.google.com/112371263315253005287"
 }, {
 	"bio": "Željko has been a part of the Infinum Android team for 3 years. He has mastered all those nasty bugs and errors which can occur while developing even the most complicated projects. His passions include ORM libraries and frameworks, Android Studio and contributing to open source. His love for Android Studio can only be matched by his hatred for Eclipse",
@@ -62,16 +62,16 @@
 	"name": "Željko Plesac",
 	"photo": "https://droidcon.at/img/people/ZeljkoPlesac.jpg",
 	"title": "Infinum",
-	"twitter": "https://twitter.com/ZeljkoPlesac",
+	"twitter": "ZeljkoPlesac",
 	"website": "https://hr.linkedin.com/in/željko-plesac-01551214"
 }, {
 	"bio": "Hasan Hoşgel is a dedicated Android developer and a Google Developer Export for Android with over fiveteen years of professional programming experience. Since 2010 doing all day long Android application development. Continuous improvement of the architecture, performance and also quality are his dedication. He works since 2006 for ImmobilienScout24, Germany’s real estate marketplace leader. With a short intermezzo at Kitchen Stories, which offered a premium cooking application. As a co-organizer of the “GDG Berlin Android” and as a speaker he attended many mobile conferences and several Google Developer Groups across Europe. As well being in program committees and organization of mobile conferences.",
-	"github": "https://github.com/alosdev",
+	"github": "alosdev",
 	"id": 9,
 	"name": "Hasan Hoşgel",
 	"photo": "https://droidcon.at/img/people/HasanHosgel.jpg",
 	"title": "Google Developer Expert, ImmobilienScout24",
-	"twitter": "https://www.twitter.com/alosdev",
+	"twitter": "alosdev",
 	"website": "https://plus.google.com/+HasanHosgel"
 }, {
 	"bio": "During college I got involved in e-learning projects where I developed in Java, and ended up in love with it. After graduation I got a job at Infinum as an Android developer, and have been working there ever since. By the end of 2014. I switched from various project in the telecommunication, medical and travel industry to mobile banking, where I became the Technical Manager of Mobile Banking in early 2016. My responsibilities include researching new technology and advancements in security, making sure new practices are implemented and generally pushing things forward in the right direction. I love making quality, reliable products. Apart from the effort you put in the architecture of the project, I believe that the details will define the difference between good and really amazing. We prefer amazing.",
@@ -79,16 +79,16 @@
 	"name": "Ana Baotić",
 	"photo": "https://droidcon.at/img/people/AnaBaotic.jpg",
 	"title": "Technical Manager Mobile Banking, Infinum",
-	"twitter": "https://twitter.com/abaotic",
+	"twitter": "abaotic",
 	"website": "https://www.linkedin.com/in/abaotic"
 }, {
 	"bio": "Svetlana is a Developer Advocate at JetBrains. She's been working on the Kotlin language (kotlinlang.org) since 2011. She is one of the authors of the 'Kotlin in Action' book.",
-	"github": "https://github.com/svtk",
+	"github": "svtk",
 	"id": 11,
 	"name": "Svetlana Isakova",
 	"photo": "https://droidcon.at/img/people/SvetlanaIsakova.jpg",
 	"title": "Developer Advocate, Jetbrains",
-	"twitter": "https://twitter.com/sveta_isakova",
+	"twitter": "sveta_isakova",
 	"website": "https://www.linkedin.com/in/svetlana-isakova-3b7b25a3"
 }, {
 	"bio": "Sina is a passionate Android developer since the early days of the platform. At c4c Engineering she spends a lot of time developing apps in the automotive and industrial area. She is interested in everything that improves and simplifies app development, such as continuous integration, architecture patterns, quality checks and testing.",
@@ -106,20 +106,20 @@
 	"website": "https://plus.google.com/+ChristianDziuba"
 }, {
 	"bio": "Patrick Löwenstein is a Vienna based Android developer, currently working at Tailored Apps. Also, he is studying for his Master's degree in Computer Sciences at the Vienna University of Technology. Patrick also has an Android dev blog and is active on GitHub.",
-	"github": "https://github.com/patloew",
+	"github": "patloew",
 	"id": 14,
 	"name": "Patrick Löwenstein",
 	"photo": "https://droidcon.at/img/people/PatrickLoewenstein.jpg",
 	"title": "Android Developer, Tailored Apps",
-	"twitter": "https://twitter.com/0ptrblog",
+	"twitter": "0ptrblog",
 	"website": "https://at.linkedin.com/in/patrickloewenstein"
 }, {
 	"bio": "Born in Vienna in 1986 & still living there. Using Java for 15 years, coding for the Android platform since 2009. Started as a freelancer at that time and implemented Android apps for clients like the Vienna based football club Austria Wien, the Raiffeisen bank, pharmaceutical companies Bayer and Gilead, also sport apps for the public television broadcaster ORF, and the biggest delivery service platform in Austria: Mjam. Since beginning of 2016 working in the Android team of the Vienna based startup Shpock.",
-	"github": "https://github.com/dnmbv",
+	"github": "dnmbv",
 	"id": 15,
 	"name": "Daniel Niedermühlbichler",
 	"photo": "https://droidcon.at/img/people/DanielNiedermuehlbichler.jpg",
 	"title": "Android Developer, Shpock",
-	"twitter": "https://twitter.com/DaNiederm",
+	"twitter": "DaNiederm",
 	"website": "https://www.xing.com/profile/Daniel_Niedermuehlbichler"
 }]
