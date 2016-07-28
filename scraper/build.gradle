@@ -29,7 +29,7 @@ ext.retrofitVersion = '2.1.0'
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
 
     compile 'com.squareup.moshi:moshi:1.2.0'
 
