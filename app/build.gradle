@@ -121,7 +121,7 @@ dependencies {
     compile "com.android.support:design:$supportVersion"
     compile "com.android.support:customtabs:$supportVersion"
 
-    provided 'org.projectlombok:lombok:1.16.8'
+    provided 'org.projectlombok:lombok:1.16.10'
 
     compile 'net.sourceforge.streamsupport:streamsupport:1.4.3'
 
