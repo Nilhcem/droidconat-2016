@@ -122,4 +122,22 @@
 	"title": "Android Developer, Shpock",
 	"twitter": "DaNiederm",
 	"website": "https://www.xing.com/profile/Daniel_Niedermuehlbichler"
+}, {
+	"bio": "Serj is an Android Developer at XING, GDG Hamburg organizer and Clean Architecture geek. He is responsible for the framework part that drives the XING Main App, along side other mobile products. He is known for his passion for clean and sustainable code. DI is his middle name, Jenkins is his best friend and he eats Gradle for lunch. You will never hear him 'showing-of' a feature, but he will not miss an opportunity to tell you about 'this cool new library' or 'this awesome design pattern'.",
+	"github": "serj-lotutovici",
+	"id": 16,
+	"name": "Serghei (Serj) Lotutovici",
+	"photo": "https://droidcon.at/img/people/SergheiLotutovici.jpg",
+	"title": "Senior Android Developer, XING",
+	"twitter": "SerjLtt",
+	"website": "https://www.xing.com/profile/Serj_Lotutovici"
+}, {
+	"bio": "Tim Messerschmidt oversees Germany as Regional Lead for Google's Developer Relations team. When not working with Android, he loves building backends with Node.js and researching user authentication concepts. Recently, Tim co-authored a book about identity concepts and data security. Before joining Google, Tim ran PayPal's Developer Relations team across EMEA and APAC.",
+	"github": "seraphimserapis",
+	"id": 17,
+	"name": "Tim Messerschmidt",
+	"photo": "https://droidcon.at/img/people/TimMesserschmidt.jpg",
+	"title": "Developer Relations, Google",
+	"twitter": "seraandroid",
+	"website": "https://timmesserschmidt.com"
 }]
