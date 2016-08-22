@@ -148,4 +148,69 @@
 	"photo": "https://droidcon.at/img/people/VirajTank.jpg",
 	"title": "Mobile Team Lead, Sociomantic Labs",
 	"website": "https://www.linkedin.com/in/viraj49"
+}, {
+	"bio": "Jeremie is an Android software developer for several years and currently working at Captain  Train. He is an enthusiast about good development practices and principles of Software craftsmanship.",
+	"github": "jeremiemartinez",
+	"id": 19,
+	"name": "Jérémie Martinez",
+	"photo": "https://droidcon.at/img/people/JeremieMartinez.jpg",
+	"title": "Android Developer, Captain Train",
+	"website": "https://fr.linkedin.com/in/jeremmartinez/en"
+}, {
+	"bio": "Google Developer Group Co-Organiser @Berlindroid\nAndroid and Java Evangelist @Contentful\nSoftware Engineer @Memorado and @HERE\nGraduate Software Engineer @Wooga\nResearch Associate @FraunhoferHHI\nPerson",
+	"github": "mariobodemann",
+	"id": 20,
+	"name": "Mario Bodemann",
+	"photo": "https://droidcon.at/img/people/MarioBodemann.jpg",
+	"title": "Android and Java Evangelist, Contentful",
+	"twitter": "mariobodemann",
+	"website": "https://www.linkedin.com/in/mariobodemann"
+}, {
+	"bio": "I’m an Android Engineer based in Brighton, UK working on the Android team at Buffer.\nI’m passionate about coding and love creating robust, polished and exciting projects for mobile, the web, TV, wearables and I’ll probably be toying with whatever the new thing is at the time you’re reading this – I love to be constantly learning.I’m also a keen writer as I love to share my learnings and experiences with others.\nWhen I’m not doing the above, you’ll find me with my camera, socialising, running, at the gym, playing Bass / Guitar or finding something new to engage myself in.",
+	"github": "hitherejoe",
+	"id": 21,
+	"name": "Joe Birch",
+	"photo": "https://droidcon.at/img/people/JoeBirch.jpg",
+	"title": "Android Engineer, Buffer",
+	"twitter": "hitherejoe",
+	"website": "http://hitherejoe.com/"
+}, {
+	"bio": "As Android user from the beginning, Matthias started to develop for the platform with version 1.6 in 2009. Since then he is following its progress very enthusiastically and worked on several applications, big and small, featured in the Play Store and as specialized customer solutions. During these years, he also co-founded the GDG Bremen and GDG Hamburg Android, gave several Android related talks and organized developer events around Google technologies in general. Right now he is a Android developer at the Hamburg based startup Jimdo.",
+	"id": 22,
+	"name": "Matthias Friedrich",
+	"photo": "https://droidcon.at/img/people/MatthiasFriedrich.jpg",
+	"title": "Android Developer, Jimdo",
+	"twitter": "mtthsfrdrch",
+	"website": "https://google.com/+MatthiasFriedrich"
+}, {
+	"bio": "Rina Ahmed is a Technical Evangelist for Mobile App Development at the Developer Experience & Evangelism Group at Microsoft. Currently she is specialized on Windows 10 development and cross-plattform mobile app frameworks.",
+	"id": 23,
+	"name": "Rina Ahmed",
+	"photo": "https://droidcon.at/img/people/RinaAhmed.jpg",
+	"title": "Technical Evangelist, Microsoft",
+	"twitter": "rinaahm",
+	"website": "https://at.linkedin.com/in/rinaahmed"
+}, {
+	"bio": "Caner is a UX designer who is also a technology geek. He is a part of Google Developers Experts team. He mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. Previously he worked in a publication company on digital magazines. Today, he works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been a user group leader at GDG Istanbul since 2013, organizing, participating, and speaking at events. He shares his experience in User Experience via conferences or workshops at Droidcon, DevFest, and other conferences.\nhttps://developers.google.com/experts/people/resul-caner-y-ld-r-m",
+	"id": 24,
+	"name": "Resul Caner Yıldırım",
+	"photo": "https://droidcon.at/img/people/ResulCanerYildirim.jpg",
+	"title": "User Experience Expert, InnovationBox",
+	"twitter": "protechman",
+	"website": "https://www.linkedin.com/in/protechman"
+}, {
+	"bio": "Andreas has been developing Wikitude's augmented reality SDK from the ground up. He leads the SDK engineering group within Wikitude and is actively developing augmented reality solutions for mobile for more than 4 years.",
+	"id": 25,
+	"name": "Andreas Schacherbauer",
+	"photo": "https://droidcon.at/img/people/AndreasSchacherbauer.jpg",
+	"title": "Head of SDK, Wikitude",
+	"twitter": "a_schacherbauer"
+}, {
+	"bio": "Android Developer @Shpock, Programmer, Gamer, Cat lover",
+	"id": 26,
+	"name": "Melanie Freilinger",
+	"photo": "https://droidcon.at/img/people/MelanieFreilinger.jpg",
+	"title": "Android Developer, shpock",
+	"twitter": "meli_freilinger",
+	"website": "https://www.linkedin.com/in/melanie-freilinger-104b5886"
 }]

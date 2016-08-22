@@ -27,18 +27,26 @@
 	"roomId": 1,
 	"speakersId": [2],
 	"startAt": "2016-09-16 10:15",
-	"title": "Supercharging you Android app release with fastlane"
+	"title": "Supercharging your Android app release with fastlane"
+}, {
+	"description": "Android TV is a growing platform which provides some great opportunities for developers to craft exciting applications users can enjoy from the comfort of their armchairs. However, documentation for the platform is sparse - so in this session we'll be looking at how we can create Android TV apps with the help of Google's leanback library, with the aim to educate both developers AND designers on what is possible both out-of-the box and with our own crafting! After a brief introduction to the TV platform and an open-source Vine TV app I've built (Vineyard), we'll move straight into how you can begin building applications for yourself using the leanback library and the different components that it provides - ensuring that you're following best practices along the way. We'll take a look at the different components that are provided by the framework and how you can craft custom components of your own to enhance your applications UX. Seeing as Android TV applications are completely testable, we'll also take a brief look at how this can be done to ensure your app functions as expected!",
+	"duration": 60,
+	"id": 5,
+	"roomId": 2,
+	"speakersId": [21],
+	"startAt": "2016-09-16 10:15",
+	"title": "Android TV: Building Apps with Google's LeanBack Library"
 }, {
 	"description": "The best time to talk with speakers and attendees",
 	"duration": 15,
-	"id": 5,
+	"id": 6,
 	"roomId": 0,
 	"startAt": "2016-09-16 11:15",
 	"title": "Coffee Break"
 }, {
 	"description": "The Kotlin programming language is gaining popularity amongst the Android developer community. It’s a modern language that gives more power in everyday routines. Kotlin code generally looks cleaner and nicer, and it’s much easier to work with when you have less verbosity or code duplication. And this is especially noticeable comparing with the soon-to-be-archaic versions of Java used on Android. But what’s even more important, is that Kotlin is 100% compatible with all existing Java frameworks, and has good tooling in Android Studio and IntelliJ IDEA. It’s a pragmatic language with a very low learning curve, and can be quickly grasped by Java developers. In this talk we’ll discuss the concepts of the language that provide the desired expressiveness, as well as additional goodies designed specifically for Android.",
 	"duration": 60,
-	"id": 6,
+	"id": 7,
 	"roomId": 1,
 	"speakersId": [11],
 	"startAt": "2016-09-16 11:30",
@@ -46,128 +54,152 @@
 }, {
 	"description": "Whether your app is a pet project or has millions of users, you probably need the right tools, during the development, to help you modify persisted data in real time, simulate a slow/unstable HTTP(s) connection, detect bugs as fast as possible, or create mock servers to anticipate the development of a feature.\nWe will make a demonstration of all the tools we use, in 2016, to write maintainable code and improve our productivity.",
 	"duration": 60,
-	"id": 7,
+	"id": 8,
 	"roomId": 2,
 	"speakersId": [3],
 	"startAt": "2016-09-16 11:30",
 	"title": "The 2016 Android Developer Toolbox"
 }, {
 	"duration": 90,
-	"id": 8,
+	"id": 9,
 	"roomId": 0,
 	"startAt": "2016-09-16 12:30",
 	"title": "Lunch Break"
 }, {
 	"description": "8 years since Android’s been released we finally have a proper Google-supported solution for testing in the Testing Support Library. We’ll go through the various stages of it, explore it’s (not so) hidden features and learn how to use it to build better apps. We will cover things such as (breaking the) test Rules, (outrunning the) test Runners and how to make most of tools such as Espresso & the Cloud Test Lab.",
-	"duration": 45,
-	"id": 9,
+	"duration": 60,
+	"id": 10,
 	"roomId": 1,
 	"speakersId": [5],
 	"startAt": "2016-09-16 14:00",
 	"title": "Android Testing Support Library: The Nitty Gritty"
 }, {
 	"description": "We introduce Android Auto, yet another way to connect your smartphone to the car, and compare it with other solutions. By presenting the Android Auto APIs with current features and restrictions as well as the development workflow and toolset the audience will have the necessary input to start coding. When we first heard about Android Auto, we had visions of an awesome smartphone/car integration in mind. Unfortunately the current use cases for apps are limited to music and texting and we have no access to vehicle data (e.g. GPS position, speed, engine type). The development of Android Auto apps is straightforward for the given use cases and your music or texting app can be easily extended to the Android Auto context. Nevertheless we found some pitfalls that we would like to share. Android Auto is bleeding edge: APIs, development tools, etc. are changing fast, documentation is rare and toolkits are still unstable. Testing the app on real car head units is difficult. The fast update cycles of the Android Auto OS with new features during the last couple of months raise our hopes, that the APIs will be extended to more interesting uses cases very soon.",
-	"duration": 45,
-	"id": 10,
+	"duration": 60,
+	"id": 11,
 	"roomId": 2,
 	"speakersId": [12, 13],
 	"startAt": "2016-09-16 14:00",
 	"title": "Developing Apps for Android Auto"
 }, {
-	"description": "Smartphones have become an extension of the user, allowing them to buy stuff, pay for services and hold a strong social presence. This places strict demands on security and data privacy. If you want your users to be comfortable using your app, you must place emphasis on utilising the security methods at your disposal. This talk will cover the best practices in app security, demonstrate common mistakes and pitfalls and show what we’ve learned in our own experience in the mobile banking industry.",
-	"duration": 60,
-	"id": 11,
-	"roomId": 1,
-	"speakersId": [10],
-	"startAt": "2016-09-16 14:45",
-	"title": "Safety first – best practices in app security"
-}, {
-	"description": "At PSPDFKit we're building, maintaining and evolving a large PDF framework (for viewing and editing) with more than 500 Java classes, and an even bigger number of classes in native C++ code. Iterating quickly, we try to keep up a bi-weekly release cycle – along with a lot of refactorings to keep control of the code. After almost two years we are looking back at a journey of testing. With more than 700 distinctive instrumentation tests (including unit tests, screenshot tests, UI integration tests), a full test run would take about 40 minutes and we use a lot of tricks to keep the turnaround time low. The talk will outline several of the issues that we encountered (method count limits in library test APKs, Espresso test flakiness, slow execution speeds of instrumentation tests, etc.) and how we managed to overcome them.",
+	"description": "On this year's IO Google announced Daydream, a new way of integrating your apps with Virtual Reality. To prepare the audience for those new changes, I'll explain the current situation of the VR on Android by live coding two apps: An app using Unity to produce an App on Android and IOS, but also show how to write a simple photosphere app, written in pure Java, emphasising the differences and similarities between both SDKs. After showing how to easily write Cardboard Apps, I'll introduce Daydream, and how this specification changes the usage of the SDK and how to use the simulated, or real controller.",
 	"duration": 60,
 	"id": 12,
 	"roomId": 3,
+	"speakersId": [20],
+	"startAt": "2016-09-16 14:00",
+	"title": "Virtual Reality in Android: Daydreaming about Cardboards"
+}, {
+	"description": "Smartphones have become an extension of the user, allowing them to buy stuff, pay for services and hold a strong social presence. This places strict demands on security and data privacy. If you want your users to be comfortable using your app, you must place emphasis on utilising the security methods at your disposal. This talk will cover the best practices in app security, demonstrate common mistakes and pitfalls and show what we’ve learned in our own experience in the mobile banking industry.",
+	"duration": 60,
+	"id": 13,
+	"roomId": 1,
+	"speakersId": [10],
+	"startAt": "2016-09-16 15:00",
+	"title": "Safety first – best practices in app security"
+}, {
+	"description": "The paper metaphor, bright colors and print like typography are what make Material design beautiful. What really lets it shine though is motion! While itâ€™s not hard to animate single Android ui components, it becomes harder when these components and their animations shall depend on each other. With CoordinatorLayout the official Android Design Support Library provides a powerful, top-level ui component to make these highly dynamic dependencies easily manageable. This session wants to cover whatâ€™s possible out of the box using CoordinatorLayout together with some other widgets and latest additions of the Design Support Library and also aims to provide deeper insights of how it actually works. The talk will explain the basic concepts it is build on as well as its apis that developers can use to build their own ui behaviors. After the talk you will be able to define complex dependencies between your ui components and make your app shine without cluttering your activities/fragmentsviews with animation code or losing your mind in animation listener hell.",
+	"duration": 60,
+	"id": 14,
+	"roomId": 2,
+	"speakersId": [22],
+	"startAt": "2016-09-16 15:00",
+	"title": "Are you coordinating already?"
+}, {
+	"description": "At PSPDFKit we're building, maintaining and evolving a large PDF framework (for viewing and editing) with more than 500 Java classes, and an even bigger number of classes in native C++ code. Iterating quickly, we try to keep up a bi-weekly release cycle – along with a lot of refactorings to keep control of the code. After almost two years we are looking back at a journey of testing. With more than 700 distinctive instrumentation tests (including unit tests, screenshot tests, UI integration tests), a full test run would take about 40 minutes and we use a lot of tricks to keep the turnaround time low. The talk will outline several of the issues that we encountered (method count limits in library test APKs, Espresso test flakiness, slow execution speeds of instrumentation tests, etc.) and how we managed to overcome them.",
+	"duration": 60,
+	"id": 15,
+	"roomId": 3,
 	"speakersId": [7],
-	"startAt": "2016-09-16 14:45",
+	"startAt": "2016-09-16 15:00",
 	"title": "Why testing an Android framework is different?"
 }, {
 	"description": "The best time to talk with speakers and attendees",
 	"duration": 15,
-	"id": 13,
+	"id": 16,
 	"roomId": 0,
-	"startAt": "2016-09-16 15:45",
+	"startAt": "2016-09-16 16:00",
 	"title": "Coffee Break"
 }, {
 	"description": "Very few concepts shook up the Android world as MVP and Dagger 2 did. MVP gave us a long-awaited clean architecture in Android apps, while Dagger 2 brought it to a whole new level by removing all the boilerplate code that we don't like writing. In this talk, I will demonstrate the benefits of the MVP architecture and its reusability and scalability. I’ll go over Dagger’s role in MVP as well as unit testing, and show how to focus on creating reusable modules on a concrete example.",
 	"duration": 60,
-	"id": 14,
+	"id": 17,
 	"roomId": 1,
 	"speakersId": [6],
-	"startAt": "2016-09-16 16:00",
+	"startAt": "2016-09-16 16:15",
 	"title": "Building a maintainable app using MVP and Dagger 2"
 }, {
 	"description": "Realm: A fast and secure database for Android, which is easy to learn and integrate.\nHave you heard good things about Realm and considered replacing SQLite or ORM with Realm?\nDo you know that with tons of advantages, Realm also brings some limitations?\nHave you faced thread handling issues with Realm?\nIf yes, we will discuss different integration approaches of Realm and best practices to follow, along with RxJava, Retrofit, Dagger, Annotations & MVP.",
 	"duration": 60,
-	"id": 15,
+	"id": 18,
 	"roomId": 2,
 	"speakersId": [18],
-	"startAt": "2016-09-16 16:00",
+	"startAt": "2016-09-16 16:15",
 	"title": "Safe vs Deep integration of Realm in Android"
 }, {
-	"description": "Enough with Android apps, now let's build our own custom ROM! Ever wondered how to modify and compile the Android Open Source Project (AOSP)? Want to build you own custom app, or use it for an embedded device? How to start, where to modify, how the work is done. This lecture will explain all the basics and how to continue on your own.",
+	"description": "In March 2016 Google presented the first preview of the next major Android release: Android N. To keep their apps up date developers have to prepare as early as possible. Even if the final release is planned for Q3 2016 it’s already clear that Android N will provide improvements in the Android system and features which can boost the user experience for your app. In this talk I present the most important changes and how developers can prepare their apps to be on the bleeding edge. In particular I will cover following features:\n* Improved Notifications\n* Launcher Shortcuts\n* Multi-window support\n* and more",
 	"duration": 60,
-	"id": 16,
+	"id": 19,
 	"roomId": 3,
-	"speakersId": [],
-	"startAt": "2016-09-16 16:00",
-	"title": "AOSP: Hack your own Android ROM"
+	"speakersId": [26],
+	"startAt": "2016-09-16 16:15",
+	"title": "Exploring the Features of Android N"
 }, {
 	"description": "Let's face it - the more successful a product is, the more complex it becomes. New features are pulled into the backlog, bugs pile up like candy on Halloween and deadlines move from \"We need it Tomorrow\" to \"It had to be done last week!\". As a result teams grow, new ones emerge and a once small and simple app overpasses the dex limit and requires 300 seconds for a cold build (if you're lucky, of course). At ${company_name} we value quality, but we also require speed and a continues delivery that should never stop. With seven+ teams contributing to the main app the risk of breaking the stability of the project is even higher. Thus a clean and straight forward architecture is key for a successful rollout and our QAs sanity. This talk is about our journey from a one-block app (with a twisted maze of legacy code on top), to a multi modular and sustainable project consisting of small semi-autonomous components that assemble into our flagship app. Almost like a jigsaw puzzle.",
-	"duration": 45,
-	"id": 17,
+	"duration": 60,
+	"id": 20,
 	"roomId": 1,
 	"speakersId": [16],
-	"startAt": "2016-09-16 17:00",
+	"startAt": "2016-09-16 17:15",
 	"title": "Scaling Android Apps - how I learned to love the puzzle"
 }, {
+	"description": "n this talk, we will see how we can re-use the DevOps methodology in an Android context. We will begin with a quick overview of a good continuous integration on Android. Then, we will see what tools we can use to implement such a process with a particular focus on testing. We will also explore the API implemented by Google to allow developers to interact with the console Play Store and therefore be able to automate deliveries. At the end of this talk, we will have a full pipeline to deploy from one git push to a production release.",
+	"duration": 60,
+	"id": 21,
+	"roomId": 2,
+	"speakersId": [19],
+	"startAt": "2016-09-16 17:15",
+	"title": "DevOps on Android: From one git push to a Play Store release"
+}, {
 	"description": "With Google Play Services 7.8, released in August 2015, Google introduced the Nearby API. This API makes use of an array of technologies like Wifi, Bluetooth, Beacons and even audio to communicate with nearby objects like bus stops, train platforms or even indoor locations like a museum. There are a lot of possibilities for using the Nearby API, for example creating a local Multiplayer game where people nearby can join a game without internet connection, or a smart bus stop that tells you when your bus is delayed and provides entertainment while you wait. The use cases are almost endless. This talk will touch the Nearby Messages API, the Nearby Locations API and the (eddystone) beacon technology.",
-	"duration": 45,
-	"id": 18,
+	"duration": 60,
+	"id": 22,
 	"roomId": 3,
 	"speakersId": [4],
-	"startAt": "2016-09-16 17:00",
+	"startAt": "2016-09-16 17:15",
 	"title": "Nearby API - I'm lost, let's see what's nearby!"
 }, {
 	"description": "Closing this conference day",
 	"duration": 15,
-	"id": 19,
+	"id": 23,
 	"roomId": 0,
-	"startAt": "2016-09-16 17:45",
+	"startAt": "2016-09-16 18:15",
 	"title": "Closing"
 }, {
 	"description": "Time to network and relax",
 	"duration": 180,
-	"id": 20,
+	"id": 24,
 	"roomId": 0,
-	"startAt": "2016-09-16 18:30",
+	"startAt": "2016-09-16 19:00",
 	"title": "Afterparty"
 }, {
 	"description": "We will welcome you with hot espresso, danish pastry and your conference badge.",
 	"duration": 30,
-	"id": 21,
+	"id": 25,
 	"roomId": 0,
 	"startAt": "2016-09-17 09:00",
 	"title": "Breakfast & Registration"
 }, {
 	"description": "Opening of this day of droidcon Vienna",
 	"duration": 15,
-	"id": 22,
+	"id": 26,
 	"roomId": 0,
 	"startAt": "2016-09-17 09:30",
 	"title": "Welcome"
 }, {
 	"description": "Firebase is a mobile platform that helps you quickly develop high-quality apps, grow your user base, and earn more money. It is made up of complementary features that you can mix-and-match to fit your needs. In this session, Tim will run you through the 15 different features that help you build an effectively scaling and high-performing application that works equally well on Android, iOS and the web.",
 	"duration": 60,
-	"id": 23,
+	"id": 27,
 	"roomId": 1,
 	"speakersId": [17],
 	"startAt": "2016-09-17 09:45",
@@ -175,73 +207,90 @@
 }, {
 	"description": "The slogan ‘#PERFMATTERS’ by Colt McAnlis is one of the most important statements, which an Android developer should follow. A well performing application makes the difference between a nice looking application and one, which gets successful. You, as an Android developer, have the responsibility to delight your users, so they don’t feel how much work your application has to burden to fulfill the user’s needs. This session will show you some easy optimizations and how to avoid glitches in the application. A lot of developers would shout, that this is premature optimization. In contrary it is preventive. With a small amount of work while developing you can avoid a lot of pitfalls. You will hopefully have a better understanding of the underlying system afterwards. During the session some tools and frameworks will be presented for helping you to fulfill your mission.",
 	"duration": 60,
-	"id": 24,
+	"id": 28,
 	"roomId": 2,
 	"speakersId": [9],
 	"startAt": "2016-09-17 09:45",
 	"title": "#PERFMATTERS for Android"
 }, {
 	"description": "For years crash handling was one of the worst parts of the Android development process. With each new crash you were risking a lot - getting bad Google Play reviews, negative comments and dissatisfied customers. Nobody likes the \"Unfortunately, your app has crashed\" dialog, but there was only so much you could do about it, beside logging the crash to a remote server. In the last couple of months a lot has changed. We've been introduced to brand new tools to help us cope with this problem. During this talk, we'll demonstrate how to use several tools and techniques that have made our lives easier. We'll discuss different ways of predicting crashes even before they occur by means of static code checkers, automatic tests and CI setup. Additionally, we'll show you how to detect memory leaks, explain advanced exception and crash logging by using a combination of several different tools. Finally, we’ll demonstrate how to provide a better crash experience or hide the crash altogether if the crash is simply inevitable!",
-	"duration": 45,
-	"id": 25,
+	"duration": 60,
+	"id": 29,
 	"roomId": 1,
 	"speakersId": [8],
 	"startAt": "2016-09-17 10:45",
 	"title": "Crash Wars: The handling awakens"
 }, {
+	"description": "Xamarin is a Cross-Platform Framework that allows developers to build mobile applications for iOS, Android and Windows using .NET and C#. From a single language mobile developers can leverage the power of C# and a single codebase to build and maintain their apps for all of the above three platforms. This talk gives an introduction of Xamarin and how Android developers can use it to develop apps not only for Android but easily add other platforms to it.",
+	"duration": 60,
+	"id": 30,
+	"roomId": 2,
+	"speakersId": [23],
+	"startAt": "2016-09-17 10:45",
+	"title": "Xamarin for Android Developers"
+}, {
 	"description": "The best time to talk with speakers and attendees",
 	"duration": 15,
-	"id": 26,
+	"id": 31,
 	"roomId": 0,
-	"startAt": "2016-09-17 11:30",
+	"startAt": "2016-09-17 11:45",
 	"title": "Coffee Break"
 }, {
 	"description": "You have tons of custom getters in your model classes to avoid getting null values where you don’t want them? Multiple null-checks for one effective line of code? And what’s about all the clumsy binding of views from your XML-layouts? Maybe you already accepted all that and more as part of building an Android app. But there is hope! With the fresh release of Kotlin 1.0 in February 2016 the JetBrains team gave Android developers a wonderful modern language to build their apps in a more concise, more readable and more stable way. And I will show you how to use the powers of Kotlin for your next Android project.",
 	"duration": 60,
-	"id": 27,
+	"id": 32,
 	"roomId": 1,
 	"speakersId": [15],
-	"startAt": "2016-09-17 11:45",
+	"startAt": "2016-09-17 12:00",
 	"title": "The Blessings of Kotlin for Android"
 }, {
 	"description": "Model-View-Presenter (MVP) architecture is widely used in today’s Android apps to separate the view from the view logic and the model by introducing a presenter. Model-View-ViewModel (MVVM) is quite similar to MVP, with the view model acting as an enhanced presenter, using a data binder to keep the view model and the view in sync. By binding the view to view model properties, the data binder can handle view updates, without the need to manually set changed data back to the view (e.g. no more setText() or setVisibility() on a TextView). As with the presenter in MVP, the view model can easily be unit tested. This talk gives an introduction to the MVVM architecture and how it can be used on Android with the data binding library.",
 	"duration": 60,
-	"id": 28,
+	"id": 33,
 	"roomId": 2,
 	"speakersId": [14],
-	"startAt": "2016-09-17 11:45",
+	"startAt": "2016-09-17 12:00",
 	"title": "MVVM architecture with the data binding library"
 }, {
 	"duration": 90,
-	"id": 29,
+	"id": 34,
 	"roomId": 0,
-	"startAt": "2016-09-17 12:45",
+	"startAt": "2016-09-17 13:00",
 	"title": "Lunch Break"
 }, {
-	"description": "Your content, selected by you!",
-	"duration": 105,
-	"id": 30,
+	"description": "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design a successful user experience for this devices. Every platform has it's own design principles and approaches. But, in the core, they all need to follow same rules. So, how can we combine this core requirements with Google's Material Design and use them on an Android Wear device? Let's learn!",
+	"duration": 60,
+	"id": 35,
 	"roomId": 1,
-	"startAt": "2016-09-17 14:15",
-	"title": "Barcamp"
+	"speakersId": [24],
+	"startAt": "2016-09-17 14:30",
+	"title": "Material Design For Android Wear"
+}, {
+	"description": "Developing Augmented Reality apps for Android - Pokemon Go brought Augmented Reality to the hands of millions of users. In this session Wikitude unveils the secrets of how to build an app like Pokemon Go and shares all the possibilities Augmented Reality can bring to Android devs.",
+	"duration": 60,
+	"id": 36,
+	"roomId": 2,
+	"speakersId": [25],
+	"startAt": "2016-09-17 14:30",
+	"title": "Build the next Pokemon Go"
 }, {
 	"description": "The best time to talk with speakers and attendees",
 	"duration": 30,
-	"id": 31,
+	"id": 37,
 	"roomId": 0,
-	"startAt": "2016-09-17 16:00",
+	"startAt": "2016-09-17 15:30",
 	"title": "Coffee Break"
 }, {
 	"description": "Your content, selected by you!",
-	"duration": 90,
-	"id": 32,
+	"duration": 120,
+	"id": 38,
 	"roomId": 1,
-	"startAt": "2016-09-17 16:30",
+	"startAt": "2016-09-17 16:00",
 	"title": "Barcamp"
 }, {
 	"description": "Closing this conference day",
 	"duration": 15,
-	"id": 33,
+	"id": 39,
 	"roomId": 0,
 	"startAt": "2016-09-17 18:00",
 	"title": "Closing"
