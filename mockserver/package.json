@@ -1,6 +1,6 @@
 {
   "name": "droidconat2016-mock-server",
-  "description": "Droidcon Austria 2016 Mock Server",
+  "description": "droidcon Vienna 2016 Mock Server",
   "version": "0.0.1",
   "private": true,
   "dependencies": {

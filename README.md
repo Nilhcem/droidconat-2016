@@ -1,4 +1,4 @@
-# Droidcon Austria 2016 Conference App
+# droidcon Vienna 2016 Conference App
 
 Sample app for the "2016 Android Developer Toolbox" talk at droidconAT
 
@@ -43,7 +43,7 @@ http://localhost:8990/
 
 ## Acknowledgements
 
-This project took some inspiration from the amazing work done for the [Droidcon PL 2015 mobile app][], the [Google I/O app][], and the [DroidKaigi 2016 app][]
+This project took some inspiration from the amazing work done for the [droidcon PL 2015 mobile app][], the [Google I/O app][], and the [DroidKaigi 2016 app][]
 
 
 ## License
@@ -63,6 +63,6 @@ limitations under the License.
 ```
 
 [droidconat2016 Android screenshots]: https://raw.githubusercontent.com/Nilhcem/droidconat-2016/master/assets/screenshots/screenshots.jpg
-[Droidcon PL 2015 mobile app]: https://github.com/droidconpl/droidcon-2015-mobile-app
+[droidcon PL 2015 mobile app]: https://github.com/droidconpl/droidcon-2015-mobile-app
 [Google I/O app]: https://github.com/google/iosched
 [DroidKaigi 2016 app]: https://github.com/konifar/droidkaigi2016/

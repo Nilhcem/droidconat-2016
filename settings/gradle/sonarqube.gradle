@@ -7,7 +7,7 @@ sonarqube {
         def appProjectBuildDir = appProject.buildDir
 
         property 'sonar.projectKey', 'droidconat'
-        property 'sonar.projectName', 'DroidconAT 2016'
+        property 'sonar.projectName', 'droidconAT 2016'
         property 'sonar.projectVersion', appProject.android.defaultConfig.versionName
 
         property 'sonar.host.url', 'http://docker:9000'
