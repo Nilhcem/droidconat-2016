@@ -14,7 +14,6 @@ import android.os.SystemClock;
 import com.facebook.stetho.dumpapp.DumpException;
 import com.facebook.stetho.dumpapp.DumperContext;
 import com.facebook.stetho.dumpapp.DumperPlugin;
-import com.google.gson.GsonBuilder;
 import com.jakewharton.processphoenix.ProcessPhoenix;
 import com.nilhcem.droidconat.R;
 import com.nilhcem.droidconat.data.app.model.Session;
@@ -27,6 +26,8 @@ import com.nilhcem.droidconat.receiver.reminder.ReminderReceiverIntentBuilder;
 import com.nilhcem.droidconat.ui.drawer.DrawerActivity;
 import com.nilhcem.droidconat.ui.sessions.details.SessionDetailsActivity;
 import com.nilhcem.droidconat.utils.App;
+import com.squareup.moshi.JsonWriter;
+import com.squareup.moshi.Moshi;
 
 import org.threeten.bp.format.DateTimeFormatter;
 
@@ -37,6 +38,7 @@ import java.util.Locale;
 
 import javax.inject.Inject;
 
+import okio.Buffer;
 import rx.Observable;
 
 public class AppDumperPlugin implements DumperPlugin {
@@ -45,13 +47,15 @@ public class AppDumperPlugin implements DumperPlugin {
     private final ApiEndpoint endpoint;
     private final SessionsDao sessionsDao;
     private final ActivityProvider activityProvider;
+    private final Moshi moshi;
 
     @Inject
-    public AppDumperPlugin(Application app, ApiEndpoint endpoint, SessionsDao sessionsDao, ActivityProvider activityProvider) {
+    public AppDumperPlugin(Application app, ApiEndpoint endpoint, SessionsDao sessionsDao, ActivityProvider activityProvider, Moshi moshi) {
         this.context = app;
         this.endpoint = endpoint;
         this.sessionsDao = sessionsDao;
         this.activityProvider = activityProvider;
+        this.moshi = moshi;
     }
 
     @Override
@@ -149,7 +153,15 @@ public class AppDumperPlugin implements DumperPlugin {
                 Field field = SessionDetailsActivity.class.getDeclaredField("session");
                 field.setAccessible(true);
                 Session session = (Session) field.get(activity);
-                writer.println(new GsonBuilder().setPrettyPrinting().create().toJson(session));
+
+                // Convert sessions to a human readable json
+                Buffer buffer = new Buffer();
+                JsonWriter jsonWriter = JsonWriter.of(buffer);
+                jsonWriter.setIndent("  ");
+                moshi.adapter(Session.class).toJson(jsonWriter, session);
+                String sessionJson = buffer.readUtf8();
+
+                writer.println(sessionJson);
             } catch (Exception e) {
                 writer.println(e.getMessage());
             }

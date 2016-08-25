@@ -170,7 +170,6 @@ dependencies {
         exclude group: 'com.jakewharton.timber'
     }
     internalCompile "com.facebook.stetho:stetho-js-rhino:$stethoVersion"
-    internalCompile 'com.google.code.gson:gson:2.7'
 
     testCompile 'junit:junit:4.12'
     testCompile 'com.google.truth:truth:0.29'
