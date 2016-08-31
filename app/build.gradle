@@ -158,7 +158,7 @@ dependencies {
 
     compile 'com.squareup.sqlbrite:sqlbrite:0.7.0'
 
-    compile 'com.jakewharton.threetenabp:threetenabp:1.0.3'
+    compile 'com.jakewharton.threetenabp:threetenabp:1.0.4'
 
     internalCompile 'jp.wasabeef:takt:1.0.2'
     internalCompile 'com.jakewharton:process-phoenix:1.0.2'
