@@ -5,4 +5,4 @@ export JAVA_TOOL_OPTIONS='-Djava.awt.headless=true'
 
 ./gradlew clean :app:assembleProductionDebug :app:testProductionDebugUnitTest :app:sonarqube
 
-echo "SonarQube reports: http://docker:9000"
+echo "SonarQube reports: http://localhost:9000"

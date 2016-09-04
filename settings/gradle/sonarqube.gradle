@@ -10,7 +10,7 @@ sonarqube {
         property 'sonar.projectName', 'droidconAT 2016'
         property 'sonar.projectVersion', appProject.android.defaultConfig.versionName
 
-        property 'sonar.host.url', 'http://docker:9000'
+        property 'sonar.host.url', 'http://localhost:9000'
         property 'sonar.sources', 'src'
         property 'sonar.sourceEncoding', 'UTF-8'
         property 'sonar.java.binaries', 'build'
