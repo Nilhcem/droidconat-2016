@@ -191,18 +191,18 @@
 	"twitter": "rinaahm",
 	"website": "https://at.linkedin.com/in/rinaahmed"
 }, {
-	"bio": "Caner is a UX designer who is also a technology geek. He is a part of Google Developers Experts team. He mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. Previously he worked in a publication company on digital magazines. Today, he works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been a user group leader at GDG Istanbul since 2013, organizing, participating, and speaking at events. He shares his experience in User Experience via conferences or workshops at Droidcon, DevFest, and other conferences.\nhttps://developers.google.com/experts/people/resul-caner-y-ld-r-m",
-	"id": 24,
-	"name": "Resul Caner Yıldırım",
-	"photo": "https://droidcon.at/img/people/ResulCanerYildirim.jpg",
-	"title": "User Experience Expert, InnovationBox",
-	"twitter": "protechman",
-	"website": "https://www.linkedin.com/in/protechman"
-}, {
 	"bio": "Andreas has been developing Wikitude's augmented reality SDK from the ground up. He leads the SDK engineering group within Wikitude and is actively developing augmented reality solutions for mobile for more than 4 years.",
-	"id": 25,
+	"id": 24,
 	"name": "Andreas Schacherbauer",
 	"photo": "https://droidcon.at/img/people/AndreasSchacherbauer.jpg",
 	"title": "Head of SDK, Wikitude",
 	"twitter": "a_schacherbauer"
+}, {
+	"bio": "Hans-Christoph Steiner is a researcher and hacker with Guardian Project working to make private-by-design easy for all to achieve. He spends his time making software as private as possible yet usable by everyone, designing digital interactions focused on perceptual capabilities, and composing music with computers. With an emphasis on collaboration, he works in many forms, including free software for mobile and embedded devices, responsive sound environments, free wireless networks that build community, musical robots that listen, programming environments to let you play with math, and a jet-powered fish that you can ride. To further his research, he teaches and works at various community centers and organizes open, collaborative hacklabs and open barcamp conferences. He is currently focused on building the most flexible, private, and secure app store as well as teaching digital security, interaction design, and media programming at workshops around and universities around the world.",
+	"id": 25,
+	"name": "Hans-Christoph Steiner",
+	"photo": "https://droidcon.at/img/people/Hans-ChristophSteiner.jpg",
+	"title": "Researcher, Guardian Project",
+	"twitter": "hansstatus",
+	"website": "https://guardianproject.info/blog"
 }]

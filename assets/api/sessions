@@ -110,7 +110,7 @@
 	"duration": 60,
 	"id": 15,
 	"roomId": 3,
-	"speakersId": [25],
+	"speakersId": [24],
 	"startAt": "2016-09-16 15:00",
 	"title": "Build the next Pokemon Go"
 }, {
@@ -137,13 +137,13 @@
 	"startAt": "2016-09-16 16:15",
 	"title": "Safe vs Deep integration of Realm in Android"
 }, {
-	"description": "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design a successful user experience for this devices. Every platform has it's own design principles and approaches. But, in the core, they all need to follow same rules. So, how can we combine this core requirements with Google's Material Design and use them on an Android Wear device? Let's learn!",
+	"description": "Deliver private, secure apps with ease\nMobile phones have become central to our private lives, full of intimate messages, private pictures, and a huge amount of details of our personal lives.  Our experience of using mobile software feels very private: when we look at our mobile screens, it feels like no one else can see what we are seeing.  Unfortunately, information can easily leak out in so many different ways, making it difficult for app developers to deliver on this implicit promise made to users.\nFor companies, it is clear that data can be very lucrative business.  It is also increasingly apparent that having too much data about users can destroy your business if that information gets hacked and dumped onto the internet.\nBuilding apps that can securely contain private can be hard to do, but it does not have to be.  Guardian Project's central goal is to make it as easy as possible.  We take cutting edge security research and bundle it up into free, easy to use libraries.  These libraries make it very easy to protect precious data on the device and over the internet.  These libraries use APIs that developers already know (e.g. android.database.*, java.io.*) so the ramp up time for developers is really fast.  This workshop will give an overview of our suite of libraries, including SQLCipher-for-Android, private file stores, and hardened network connections.  Then we will help you start incorporating them in your own apps, providing a wealth of examples including sample code, real world apps that use these libraries, and UI/UX patterns that work well.",
 	"duration": 60,
 	"id": 19,
 	"roomId": 3,
-	"speakersId": [24],
+	"speakersId": [25],
 	"startAt": "2016-09-16 16:15",
-	"title": "Material Design For Android Wear"
+	"title": "Private Development Made Easy"
 }, {
 	"description": "Let's face it - the more successful a product is, the more complex it becomes. New features are pulled into the backlog, bugs pile up like candy on Halloween and deadlines move from \"We need it Tomorrow\" to \"It had to be done last week!\". As a result teams grow, new ones emerge and a once small and simple app overpasses the dex limit and requires 300 seconds for a cold build (if you're lucky, of course). At ${company_name} we value quality, but we also require speed and a continues delivery that should never stop. With seven+ teams contributing to the main app the risk of breaking the stability of the project is even higher. Thus a clean and straight forward architecture is key for a successful rollout and our QAs sanity. This talk is about our journey from a one-block app (with a twisted maze of legacy code on top), to a multi modular and sustainable project consisting of small semi-autonomous components that assemble into our flagship app. Almost like a jigsaw puzzle.",
 	"duration": 60,
