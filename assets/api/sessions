@@ -32,7 +32,7 @@
 	"description": "Android TV is a growing platform which provides some great opportunities for developers to craft exciting applications users can enjoy from the comfort of their armchairs. However, documentation for the platform is sparse - so in this session we'll be looking at how we can create Android TV apps with the help of Google's leanback library, with the aim to educate both developers AND designers on what is possible both out-of-the box and with our own crafting! After a brief introduction to the TV platform and an open-source Vine TV app I've built (Vineyard), we'll move straight into how you can begin building applications for yourself using the leanback library and the different components that it provides - ensuring that you're following best practices along the way. We'll take a look at the different components that are provided by the framework and how you can craft custom components of your own to enhance your applications UX. Seeing as Android TV applications are completely testable, we'll also take a brief look at how this can be done to ensure your app functions as expected!",
 	"duration": 60,
 	"id": 5,
-	"roomId": 3,
+	"roomId": 2,
 	"speakersId": [21],
 	"startAt": "2016-09-16 10:15",
 	"title": "Android TV: Building Apps with Google's LeanBack Library"
@@ -55,7 +55,7 @@
 	"description": "Whether your app is a pet project or has millions of users, you probably need the right tools, during the development, to help you modify persisted data in real time, simulate a slow/unstable HTTP(s) connection, detect bugs as fast as possible, or create mock servers to anticipate the development of a feature.\nWe will make a demonstration of all the tools we use, in 2016, to write maintainable code and improve our productivity.",
 	"duration": 60,
 	"id": 8,
-	"roomId": 3,
+	"roomId": 2,
 	"speakersId": [3],
 	"startAt": "2016-09-16 11:30",
 	"title": "The 2016 Android Developer Toolbox"
@@ -205,14 +205,6 @@
 	"startAt": "2016-09-17 09:30",
 	"title": "User Authentication designed for 2016 and beyond"
 }, {
-	"description": "The slogan ‘#PERFMATTERS’ by Colt McAnlis is one of the most important statements, which an Android developer should follow. A well performing application makes the difference between a nice looking application and one, which gets successful. You, as an Android developer, have the responsibility to delight your users, so they don’t feel how much work your application has to burden to fulfill the user’s needs. This session will show you some easy optimizations and how to avoid glitches in the application. A lot of developers would shout, that this is premature optimization. In contrary it is preventive. With a small amount of work while developing you can avoid a lot of pitfalls. You will hopefully have a better understanding of the underlying system afterwards. During the session some tools and frameworks will be presented for helping you to fulfill your mission.",
-	"duration": 60,
-	"id": 28,
-	"roomId": 3,
-	"speakersId": [9],
-	"startAt": "2016-09-17 09:30",
-	"title": "#PERFMATTERS for Android"
-}, {
 	"description": "For years crash handling was one of the worst parts of the Android development process. With each new crash you were risking a lot - getting bad Google Play reviews, negative comments and dissatisfied customers. Nobody likes the \"Unfortunately, your app has crashed\" dialog, but there was only so much you could do about it, beside logging the crash to a remote server. In the last couple of months a lot has changed. We've been introduced to brand new tools to help us cope with this problem. During this talk, we'll demonstrate how to use several tools and techniques that have made our lives easier. We'll discuss different ways of predicting crashes even before they occur by means of static code checkers, automatic tests and CI setup. Additionally, we'll show you how to detect memory leaks, explain advanced exception and crash logging by using a combination of several different tools. Finally, we’ll demonstrate how to provide a better crash experience or hide the crash altogether if the crash is simply inevitable!",
 	"duration": 60,
 	"id": 29,
@@ -224,7 +216,7 @@
 	"description": "Xamarin is a Cross-Platform Framework that allows developers to build mobile applications for iOS, Android and Windows using .NET and C#. From a single language mobile developers can leverage the power of C# and a single codebase to build and maintain their apps for all of the above three platforms. This talk gives an introduction of Xamarin and how Android developers can use it to develop apps not only for Android but easily add other platforms to it.",
 	"duration": 60,
 	"id": 30,
-	"roomId": 3,
+	"roomId": 2,
 	"speakersId": [23],
 	"startAt": "2016-09-17 10:30",
 	"title": "Xamarin for Android Developers"
@@ -247,7 +239,7 @@
 	"description": "Model-View-Presenter (MVP) architecture is widely used in today’s Android apps to separate the view from the view logic and the model by introducing a presenter. Model-View-ViewModel (MVVM) is quite similar to MVP, with the view model acting as an enhanced presenter, using a data binder to keep the view model and the view in sync. By binding the view to view model properties, the data binder can handle view updates, without the need to manually set changed data back to the view (e.g. no more setText() or setVisibility() on a TextView). As with the presenter in MVP, the view model can easily be unit tested. This talk gives an introduction to the MVVM architecture and how it can be used on Android with the data binding library.",
 	"duration": 60,
 	"id": 33,
-	"roomId": 3,
+	"roomId": 2,
 	"speakersId": [14],
 	"startAt": "2016-09-17 11:45",
 	"title": "MVVM architecture with the data binding library"
@@ -263,7 +255,7 @@
 	"description": "At PSPDFKit we're building, maintaining and evolving a large PDF framework (for viewing and editing) with more than 500 Java classes, and an even bigger number of classes in native C++ code. Iterating quickly, we try to keep up a bi-weekly release cycle – along with a lot of refactorings to keep control of the code. After almost two years we are looking back at a journey of testing. With more than 700 distinctive instrumentation tests (including unit tests, screenshot tests, UI integration tests), a full test run would take about 40 minutes and we use a lot of tricks to keep the turnaround time low. The talk will outline several of the issues that we encountered (method count limits in library test APKs, Espresso test flakiness, slow execution speeds of instrumentation tests, etc.) and how we managed to overcome them.",
 	"duration": 30,
 	"id": 35,
-	"roomId": 3,
+	"roomId": 2,
 	"speakersId": [7],
 	"startAt": "2016-09-17 12:45",
 	"title": "Why testing an Android framework is different?"
