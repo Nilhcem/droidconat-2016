@@ -205,6 +205,14 @@
 	"startAt": "2016-09-17 09:30",
 	"title": "User Authentication designed for 2016 and beyond"
 }, {
+	"description": "This will be an impromptu talk by cketti, very much influenced by the audience!",
+	"duration": 60,
+	"id": 28,
+	"roomId": 2,
+	"speakersId": [9],
+	"startAt": "2016-09-17 09:30",
+	"title": "Something about Intents and URI permissions"
+}, {
 	"description": "For years crash handling was one of the worst parts of the Android development process. With each new crash you were risking a lot - getting bad Google Play reviews, negative comments and dissatisfied customers. Nobody likes the \"Unfortunately, your app has crashed\" dialog, but there was only so much you could do about it, beside logging the crash to a remote server. In the last couple of months a lot has changed. We've been introduced to brand new tools to help us cope with this problem. During this talk, we'll demonstrate how to use several tools and techniques that have made our lives easier. We'll discuss different ways of predicting crashes even before they occur by means of static code checkers, automatic tests and CI setup. Additionally, we'll show you how to detect memory leaks, explain advanced exception and crash logging by using a combination of several different tools. Finally, we’ll demonstrate how to provide a better crash experience or hide the crash altogether if the crash is simply inevitable!",
 	"duration": 60,
 	"id": 29,
