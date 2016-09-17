@@ -268,36 +268,71 @@
 	"startAt": "2016-09-17 12:45",
 	"title": "Why testing an Android framework is different?"
 }, {
-	"duration": 90,
+	"duration": 75,
 	"id": 36,
 	"roomId": 0,
 	"startAt": "2016-09-17 13:15",
 	"title": "Lunch Break"
 }, {
-	"description": "Your content, selected by you!",
-	"duration": 105,
+	"duration": 30,
 	"id": 37,
 	"roomId": 1,
-	"startAt": "2016-09-17 14:45",
-	"title": "Barcamp"
+	"startAt": "2016-09-17 14:30",
+	"title": "Give your App a REPL (Jason Feinstein)"
+}, {
+	"duration": 30,
+	"id": 38,
+	"roomId": 2,
+	"startAt": "2016-09-17 14:30",
+	"title": "Developing an Android Library (Dino Kovac)"
+}, {
+	"duration": 30,
+	"id": 39,
+	"roomId": 1,
+	"startAt": "2016-09-17 15:00",
+	"title": "RxJava Best Practices (Kavya Hebbani)"
+}, {
+	"duration": 30,
+	"id": 40,
+	"roomId": 2,
+	"startAt": "2016-09-17 15:00",
+	"title": "Acceptance Tests and Android with Fitnesse (Maurice Wohlkönig)"
 }, {
 	"description": "The best time to talk with speakers and attendees",
 	"duration": 30,
-	"id": 38,
+	"id": 41,
 	"roomId": 0,
-	"startAt": "2016-09-17 16:30",
+	"startAt": "2016-09-17 15:30",
 	"title": "Coffee Break"
 }, {
-	"description": "Your content, selected by you!",
-	"duration": 60,
-	"id": 39,
+	"duration": 30,
+	"id": 42,
 	"roomId": 1,
+	"startAt": "2016-09-17 16:00",
+	"title": "Consistent Data Source using RxJava for MVP (Carmelo Iriti)"
+}, {
+	"duration": 30,
+	"id": 43,
+	"roomId": 1,
+	"startAt": "2016-09-17 16:30",
+	"title": "Test driven development and MVP (Tim Schonberger)"
+}, {
+	"duration": 30,
+	"id": 44,
+	"roomId": 1,
+	"speakersId": [3],
 	"startAt": "2016-09-17 17:00",
-	"title": "Barcamp"
+	"title": "Android Wear - Improve your Android skills (Gautier Mechling)"
+}, {
+	"duration": 30,
+	"id": 45,
+	"roomId": 1,
+	"startAt": "2016-09-17 17:30",
+	"title": "A Beginners Guide to Annotation Processing (Jason Feinstein)"
 }, {
 	"description": "Closing this conference day",
 	"duration": 15,
-	"id": 40,
+	"id": 46,
 	"roomId": 0,
 	"startAt": "2016-09-17 18:00",
 	"title": "Closing"
